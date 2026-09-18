@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="河北高校渠道 · 校园共享电动滑板车深度研究：品类可行性、头部企业、落地案例、分润模式">
+<title>河北高校渠道 · 校园共享电动滑板车深度研究</title>
+<style>
+:root{--paper:#f6f4ef;--card:#fff;--ink:#1d2733;--ink2:#45535f;--ink3:#85919b;
+--navy:#122b44;--navy2:#1b3f63;--teal:#0d5c57;--teal-soft:#e4efec;
+--gold:#a88532;--gold-soft:#f5ecd7;--line:#e5e0d6;--danger:#9d3a32;--danger-soft:#f8e8e5;
+--warn:#866013;--warn-soft:#faf1da;--ok:#2e6b45;--ok-soft:#e7f1ea}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:14px}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;background:var(--paper);color:var(--ink);line-height:1.78;font-size:15.5px;padding:12px 12px 96px}
+.page{max-width:920px;margin:0 auto}
+.cover{background:linear-gradient(145deg,#0d2338,#17415f 60%,#1c5672);border-radius:20px;color:#f0f4f8;padding:32px 22px 24px;margin-bottom:18px;position:relative;overflow:hidden}
+.cover::after{content:"";position:absolute;right:-80px;top:-80px;width:240px;height:240px;border-radius:50%;background:rgba(255,255,255,.05)}
+.cover .k{display:inline-block;font-size:11.5px;letter-spacing:.14em;background:rgba(255,255,255,.13);padding:4px 12px;border-radius:999px;color:#d8e5ef;margin-bottom:14px}
+.cover h1{font-size:clamp(21px,5vw,31px);line-height:1.4;margin-bottom:10px;color:#fff}
+.cover .sub{font-size:13.5px;color:#bcd0df;line-height:1.7}
+.toc{background:linear-gradient(180deg,#ffffff,#fbfaf6);border:1px solid var(--line);border-radius:16px;padding:16px 14px;margin-bottom:16px;box-shadow:0 3px 14px -12px rgba(16,42,58,.5)}
+.toc h2{font-size:14.5px;color:var(--ink2);margin-bottom:6px}
+.toc .toc-hint{font-size:11.5px;color:var(--ink3);line-height:1.55;margin-bottom:12px}
+.toc .toc-hint b{color:var(--teal)}
+.toc-grid{display:grid;grid-template-columns:1fr;gap:7px}
+@media(min-width:680px){.toc-grid{grid-template-columns:1fr 1fr}}
+.toc a{position:relative;display:block;font-size:13.5px;font-weight:600;color:var(--navy);text-decoration:none;padding:11px 30px 11px 13px;border:1px solid #e2e8ee;border-radius:11px;background:#fff;line-height:1.45;transition:background .16s,border-color .16s,transform .12s,box-shadow .16s}
+.toc a::before{content:"";position:absolute;left:0;top:9px;bottom:9px;width:3px;border-radius:0 3px 3px 0;background:var(--teal);opacity:0;transition:opacity .16s}
+.toc a::after{content:"›";position:absolute;right:11px;top:50%;transform:translateY(-50%);font-size:18px;font-weight:700;color:var(--teal);opacity:.5;line-height:1}
+.toc a:hover{background:var(--teal-soft);border-color:#bcd8d3;box-shadow:0 4px 12px -10px rgba(13,92,87,.65)}
+.toc a:hover::before,.toc a:hover::after{opacity:1}
+.toc a:active{transform:scale(.985);background:#d7e8e3}
+a.xref{color:var(--teal);font-weight:600;text-decoration:none;border-bottom:1px dashed rgba(13,92,87,.55);background:rgba(13,92,87,.06);padding:0 3px;border-radius:4px;white-space:nowrap;cursor:pointer}
+a.xref:hover{background:var(--teal-soft);border-bottom-style:solid}
+a.xref:active{background:#cfe6e0}
+.anchor{display:block;height:0;overflow:hidden}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 16px;margin-bottom:16px}
+@media(min-width:720px){section{padding:28px 30px}}
+h1,h2,h3,h4,h5{color:var(--navy);line-height:1.45}
+h2{font-size:clamp(17px,3.6vw,21px);margin:6px 0 14px;display:flex;align-items:center;gap:9px}
+h2 .no{flex:none;display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:30px;padding:0 6px;border-radius:9px;background:var(--navy);color:#fff;font-size:13px}
+h3{font-size:16px;color:var(--navy2);margin:22px 0 10px}
+h3::before{content:"▍";color:var(--gold)}
+h4{font-size:14.5px;margin:14px 0 6px}
+p{margin:0 0 11px}
+ul,ol{margin:0 0 12px;padding-left:22px}
+li{margin:5px 0}
+strong,b{color:var(--navy)}
+blockquote{border-left:4px solid var(--gold);background:var(--gold-soft);border-radius:10px;padding:12px 15px;margin:12px 0;font-size:13.5px;color:#5b4a1d}
+blockquote p{margin:2px 0}
+hr{border:none;border-top:1px dashed var(--line);margin:22px 0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:12px;margin:12px 0 16px}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:12.8px;background:#fff}
+th{background:#edf1f5;color:var(--navy);text-align:left;padding:8px 9px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:7px 9px;border-bottom:1px solid #f0ece4;vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:#fbfaf7}
+.tag{display:inline-block;font-size:11px;padding:1px 8px;border-radius:999px;margin:0 2px;white-space:nowrap}
+.tag.fact{background:var(--ok-soft);color:var(--ok)}
+.tag.media{background:var(--warn-soft);color:var(--warn)}
+.tag.quote{background:#e7eefb;color:#2c5282}
+.tag.pending{background:#f1e7f5;color:#6b3f7d}
+.callout{background:var(--teal-soft);border-left:4px solid var(--teal);border-radius:12px;padding:13px 15px;margin:13px 0}
+.foot{text-align:center;color:var(--ink3);font-size:11.5px;margin-top:18px;border-top:1px solid var(--line);padding-top:14px;line-height:1.8}
+.btn-top{position:fixed;right:14px;bottom:16px;width:44px;height:44px;border-radius:50%;background:var(--navy);color:#fff;border:none;font-size:19px;box-shadow:0 6px 18px rgba(16,42,58,.28);z-index:60;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .25s}
+.btn-top.show{opacity:1;pointer-events:auto}
+@media print{.cover,.toc,.btn-top{display:none}body{background:#fff;padding:0}section{border:none}}
+.tabs{display:flex;gap:6px;overflow-x:auto;-webkit-overflow-scrolling:touch;background:#102a43;border-radius:14px;padding:8px;margin-bottom:14px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs a{flex:none;font-size:12.5px;color:#cfe0ee;text-decoration:none;padding:7px 12px;border-radius:9px;white-space:nowrap;line-height:1.4}
+.tabs a.active{background:#e8c98b;color:#3d2e0a;font-weight:700}
+.tabs a:hover{background:rgba(255,255,255,.12)}
+.tabs a.active:hover{background:#e8c98b}
+</style>
+<style>
+/* ===== 手机端表格适配（2026-09-14）：不再依赖横向滑动 ===== */
+html{overflow-x:hidden}
+body{overflow-x:hidden;max-width:100%}
+.tw{max-width:100%;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;touch-action:pan-x pan-y}
+.tw table{max-width:100%}
+@media (max-width:760px){
+  .tw{overflow:visible;border:none;border-radius:0;margin:10px 0 6px}
+  .tw table{min-width:0!important;width:100%!important;font-size:13px;background:transparent;border-collapse:separate;border-spacing:0}
+  .tw thead{display:none}
+  .tw tbody tr{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:10px;box-shadow:0 1px 2px rgba(16,42,58,.04)}
+  .tw tbody tr:nth-child(even) td,.tw tbody tr:nth-child(even){background:transparent}
+  .tw tbody td{display:block;width:auto!important;border:none!important;padding:5px 0;background:transparent!important;font-size:13px;line-height:1.66;white-space:normal!important;word-break:break-word;overflow-wrap:anywhere}
+  .tw tbody td+td{border-top:1px dashed #efeae1!important;padding-top:7px;margin-top:2px}
+  .tw tbody td::before{content:attr(data-label);display:block;font-size:10.5px;font-weight:700;letter-spacing:.06em;color:var(--ink3);margin-bottom:2px}
+  .tw tbody td[data-label=""]::before,.tw tbody td:not([data-label])::before{display:none}
+  .tw br{display:none}
+}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="cover">
+  <span class="k">深度研究报告 · 河北高校渠道</span>
+  <h1>河北高校渠道 · 校园共享电动滑板车深度研究</h1>
+  <div class="sub">品类可行性 · 头部企业 · 落地案例 · 分润模式 ｜ 调研日期 2026-09-18 ｜ 企业官方发布 / 上市公司公告 / 高校官网 / 政府规章 / 招投标记录核实 ｜ 查不到的项明确标注「未找到」，测算类内容为假设测算</div>
+</header>
+<nav class="toc"><h2>📑 目录 · 点一下直接跳过去</h2><div class="toc-hint">下面每一条都可点击；正文里 <b>§</b> 开头的章节编号同样可以点。</div><div class="toc-grid"><a href="#s1">摘要：四句话结论</a><a href="#s2">1. 河北本地已有先例（你最好的谈判弹药）</a><a href="#s3">2. 校园共享电动滑板车案例图谱</a><a href="#s4">3. 头部企业全景</a><a href="#s5">4. 产品、标准、成本与「交钥匙」能力</a><a href="#s6">5. 运营经济性与计费模型</a><a href="#s7">6. 合规与风险</a><a href="#s8">7. 分润模式</a><a href="#s9">8. 落地路线图、合同条款与风险清单</a><a href="#s10">9. 横向可做的同类项目（同一套「零投入 + 分润」打法可直接复制）</a><a href="#s11">10. 数据缺口与待核验清单</a><a href="#s12">11. 一页结论</a><a href="#s13">说明与方法</a></div></nav>
+
+<p><strong>品类可行性 · 头部企业 · 落地案例 · 分润模式</strong></p>
+<ul>
+<li>研究日期：2026-09-18</li>
+<li>研究范围：中国大陆「共享电动滑板车」在高校/园区/景区的落地情况（重点河北）</li>
+<li>方法：企业官方发布、上市公司公告与财报口径、高校官网原文、政府规章与国家标准原文、招投标记录、媒体报道</li>
+<li>标注规则：所有事实附来源 URL；查不到的明确标注「未找到」，不编造数字与案例。测算类内容标为<strong>假设测算</strong>，不是查证结果。</li>
+</ul>
+<hr>
+<h2 class="sec" id="s1"><span class="no">1</span>摘要：四句话结论</h2>
+<p><strong>1）共享电动滑板车在校园是已经跑通的品类，河北本省就有真实案例。</strong> 共享电动滑板车<strong>在河北本省有两个真实案例</strong>：<strong>保定理工学院</strong>（2021 年 9 月校园内出现付费共享滑板车，学生争相使用）、<strong>河北工程技术学院</strong>（2026 年 3 月上线，由<strong>天猫校园</strong>整体运营，首批投放 <strong>300 辆</strong>）。此外还有中国科学院大学雁栖湖校区（2023 年，150→260 辆）这样的头部高校样本。</p>
+<p><strong>2）头号企业是九号公司（Segway-Ninebot，科创板 689009），而且它的 B2B 业务就是为你这种需求准备的。</strong> 九号<strong>商用出行事业部</strong>是面向全球共享微出行行业的 B2B 业务：自 2018 年起已与全球<strong>超过 250 家运营商</strong>合作，截至 2026-06-30 共享车辆<strong>全球累计出货超 250 万台</strong>；2026 年 9 月 14 日刚在常州举办共享出行新品全球发布会；并且是<strong>电动滑板车国家标准 GB/T 42825-2023 的主要起草单位</strong>（起草单位含「纳恩博(北京)科技有限公司」，即九号）。它对外讲的核心概念是 <strong>TCO 2.0</strong>——把收入、运营支出、硬件投资纳入同一个业务框架，而不只是卖一张更便宜的车。这已经超出「卖硬件」，接近「交钥匙车队方案」。</p>
+<p><strong>3）合规是绕得开的，但绕法只有一条：只做封闭场景。</strong> 电动滑板车没有路权——《道路交通安全法实施条例》第七十四条禁止使用滑板等滑行工具上路。但校园是相对封闭的私域场所，行业共识正是「校园内属于私域场所，投放不影响道路正常使用，这是共享滑板车在国内唯一能规模化的场景」。所以：<strong>校园场景可行，校外场景违法，校方可随时叫停</strong>。</p>
+<p><strong>4）你的位置是渠道方/校方资源方，且这个品类有现成的渠道对接路径。</strong> 九号轻骑（九号旗下校园共享运营品牌）公开招募加盟；天猫校园已自建运营团队并进入河北高校。你要做的是<strong>把校方资源对接到这些运营方</strong>，或与其中一家做区域联营。报告第 7 章给出四套分润模型与测算模板。</p>
+<hr>
+<hr>
+<span class="anchor" id="sec-1"></span><h2 class="sec" id="s2"><span class="no">2</span>1. 河北本地已有先例（你最好的谈判弹药）</h2>
+<p>这一节是整份报告对你最有直接价值的部分——<strong>河北本省不是空白市场</strong>。</p>
+<div class="tw"><table><thead><tr><th>学校</th><th>时间</th><th>情况</th><th>来源</th></tr></thead><tbody><tr><td data-label="学校"><strong>保定理工学院</strong>（保定）</td><td data-label="时间"><strong>2021 年 9 月</strong></td><td data-label="情况">校园内出现<strong>付费共享滑板车</strong>，车上有操作使用说明；报道称「<strong>价格和共享单车差距不大</strong>」；学生表示「既有趣又方便」，刚投用后争相使用，去晚了会抢不到</td><td data-label="来源">https://www.sohu.com/a/491773366_121182637</td></tr><tr><td data-label="学校"><strong>河北工程技术学院</strong>（石家庄）</td><td data-label="时间"><strong>2026 年 3 月</strong></td><td data-label="情况">共享单车项目上线，<strong>首批投放 300 辆共享电动滑板车</strong>，由<strong>天猫校园负责整体运营</strong>。运营标准（原文）：依托<strong>电子围栏</strong>技术实现 100% 规范停放、车头同向、入框整齐；<strong>网格化管理</strong>，全天候保障<strong>车辆在线率不低于 95%</strong>；<strong>低电量车辆 2 小时内完成换电</strong>；<strong>故障车辆 24 小时内修复或清运离场</strong>。同步招募 50 名「体验官」，免费骑行 1 个月</td><td data-label="来源">https://student.hebuet.edu.cn/info/1026/44363.htm</td></tr><tr><td data-label="学校">河北工程大学（邯郸）</td><td data-label="时间">2023、2025</td><td data-label="情况">共享单车 2000 辆 + 共享电动车 1000 辆、观光接驳车；企业全额投资、5 年期、校方限价</td><td data-label="来源">https://www.163.com/dy/article/I2OMUEFU05562260.html ；http://www.ggzyjypt.cn/zbggao/64836.html</td></tr><tr><td data-label="学校">燕山大学（秦皇岛）</td><td data-label="时间">2021-12</td><td data-label="情况">共享电单车投放运营服务采购项目（竞争性磋商）</td><td data-label="来源">http://zcglc.ysu.edu.cn/info/1027/5598.htm</td></tr><tr><td data-label="学校">河北大学</td><td data-label="时间">2026-03 / 2026-07</td><td data-label="情况">五四路校区「直饮水、自助洗衣和智能吹风服务项目」招标；另发布校园非机动车管理与电动车管理办法</td><td data-label="来源">搜索快照 http://www.gc-zb.com/ ；https://www.hbu.cn/bwcnew/info/1107/2036.htm</td></tr></tbody></table></div>
+<p><strong>这份清单的用法：</strong></p>
+<ul>
+<li>跟校方谈的时候，<strong>先讲保定理工学院和河北工程技术学院</strong>。这两所都是河北的学校，一所是 5 年前的「野生」投放（说明学生有真实需求、且自发接受），一所是 2026 年的<strong>规范化、有明确 SLA 的正规运营</strong>（说明现在的做法已经成熟）。「省内同类院校已经这么干了」对高校决策者的说服力，远大于任何外部案例。</li>
+<li>再讲河北工程大学的招标条款，让校方知道<strong>这类项目校方是零投入、还有分成的</strong>。</li>
+<li><strong>注意河北工程技术学院那条路线</strong>：它是<strong>天猫校园</strong>在做整体运营。也就是说，河北的校园已经被头部互联网平台盯上了——这既说明市场被验证，也说明<strong>窗口期在收窄</strong>，你要快。</li>
+</ul>
+<hr>
+<span class="anchor" id="sec-2"></span><h2 class="sec" id="s3"><span class="no">3</span>2. 校园共享电动滑板车案例图谱</h2>
+<span class="anchor" id="sec-2-1"></span><h3>2.1 标杆案例：中国科学院大学雁栖湖校区（最值得研究的一个）</h3>
+<p>这是目前公开信息里<strong>最完整、最可复制</strong>的校园共享电动滑板车样本。</p>
+<div class="tw"><table><thead><tr><th>项目</th><th>内容</th></tr></thead><tbody><tr><td data-label="项目">时间</td><td data-label="内容">2023 年 9 月上线</td></tr><tr><td data-label="项目">规模</td><td data-label="内容">首批 <strong>150 辆</strong>，近期陆续增加至 <strong>260 辆</strong>，并根据需求逐步增加</td></tr><tr><td data-label="项目">背景</td><td data-label="内容">该校区此前已投放共享单车（蓝色版、粉色版），滑板车是<strong>在已有共享单车基础上的增量</strong></td></tr><tr><td data-label="项目">车辆</td><td data-label="内容">校园定制版「电动小蓝车」，蓝白配色 + 国科大 logo；固定高度车身、车筐、车头行车灯、减震轮胎</td></tr><tr><td data-label="项目">解锁</td><td data-label="内容">微信或支付宝扫描车头二维码开锁</td></tr><tr><td data-label="项目"><strong>计费</strong></td><td data-label="内容"><strong>基础价 1.5 元，含 15 分钟、2 公里内骑行；超出后每 1 分钟加收 1 元、每 1 公里加收 1 元</strong></td></tr><tr><td data-label="项目">促销</td><td data-label="内容">扫码领「十次免费骑行」限时优惠（每次限 20 分钟内）；可办特惠次卡</td></tr><tr><td data-label="项目">停放</td><td data-label="内容">须停至<strong>指定停车点</strong>；设有<strong>限行区域</strong></td></tr><tr><td data-label="项目">安全提示</td><td data-label="内容">请勿双人骑行、请勿单手骑行；建议佩戴头盔</td></tr></tbody></table></div>
+<p>来源：中国科学院大学官方公众号，经澎湃新闻转载 https://www.thepaper.cn/newsDetail_forward_24733399</p>
+<p><strong>这个案例的四个可复用要点：</strong></p>
+<ol>
+<li><strong>1.5 元起步、含 15 分钟、2 公里内</strong>——这是目前唯一可查证的校园滑板车定价结构，可以直接作为你向校方报的初始价格锚点。</li>
+<li><strong>「共享单车 + 分享滑板车」组合投放</strong>，而不是只用滑板车。滑板车解决「比单车更快、更省力的短途」，单车覆盖剩余需求，两者不冲突。</li>
+<li><strong>限行区域 + 指定停车点</strong>是校方最在意的管控手段，方案里必须主动写进去。</li>
+<li><strong>定向促销（十次免费骑行）</strong>是标准打法，用来在投放初期把使用习惯养起来。</li>
+</ol>
+<span class="anchor" id="sec-2-2"></span><h3>2.2 九号轻骑 × 南京晓庄学院（2022）</h3>
+<div class="tw"><table><thead><tr><th>项目</th><th>内容</th></tr></thead><tbody><tr><td data-label="项目">时间</td><td data-label="内容">2022 年 8 月</td></tr><tr><td data-label="项目">运营方</td><td data-label="内容"><strong>九号轻骑</strong>（九号公司旗下校园/园区共享运营品牌）</td></tr><tr><td data-label="项目">学校情况</td><td data-label="内容">方山、莫愁、晓庄（行知园）三个校区，校园总面积近 1500 亩，教职工 1400 余人，全日制本科在校生 18000 余人</td></tr><tr><td data-label="项目">引入动因</td><td data-label="内容">校区面积跨度大、校内出行需求多</td></tr><tr><td data-label="项目">方案</td><td data-label="内容"><strong>「一站式出行解决方案」</strong>：合理的校园交通规划 + 智能共享滑板车辆投放 + 车辆标准化管理运营；目标是解决车辆堆积、道路拥堵、车辆摆放问题</td></tr><tr><td data-label="项目">使用方式</td><td data-label="内容">「随走随骑，随停随止」</td></tr><tr><td data-label="项目">后续</td><td data-label="内容">九号轻骑同步公开<strong>招募加盟</strong>（2022-06 起有招商内容投放）</td></tr></tbody></table></div>
+<p>来源：新浪财经转载《高校入驻，助力出行｜九号轻骑共享滑板车正式入驻南京晓庄学院》https://t.cj.sina.com.cn/articles/view/6348562602/17a6760aa001010joj ；招商内容 https://zhuanlan.zhihu.com/p/532780183</p>
+<p><strong>注意「一站式出行解决方案」这个措辞</strong>——它同时包含交通规划、车辆投放和标准化运营管理。这正是你向校方要表达的能力定位，也是「产品+运营+维保」在滑板车品类里的实际含义。</p>
+<span class="anchor" id="sec-2-3"></span><h3>2.3 河北工程技术学院 × 天猫校园（2026，河北本省最新）</h3>
+<div class="tw"><table><thead><tr><th>项目</th><th>内容</th></tr></thead><tbody><tr><td data-label="项目">时间</td><td data-label="内容">2026 年 3 月</td></tr><tr><td data-label="项目">运营方</td><td data-label="内容"><strong>天猫校园</strong>（整体运营）</td></tr><tr><td data-label="项目">规模</td><td data-label="内容">首批 <strong>300 辆共享电动滑板车</strong></td></tr><tr><td data-label="项目">停放</td><td data-label="内容">依托<strong>电子围栏</strong>技术，实现 100% 规范停放、车头同向、入框整齐</td></tr><tr><td data-label="项目"><strong>运营 SLA（原文，非常值得抄）</strong></td><td data-label="内容">①运营团队实行<strong>网格化管理</strong> ②全天候保障<strong>车辆在线率不低于 95%</strong> ③<strong>低电量车辆 2 小时内完成换电</strong> ④<strong>故障车辆 24 小时内修复或清运离场</strong></td></tr><tr><td data-label="项目">推广</td><td data-label="内容">招募 50 名「共享单车幸运体验官」，提供免费骑行 1 个月，用于收集反馈、优化项目</td></tr><tr><td data-label="项目">备注</td><td data-label="内容">校方通知标题写的是「共享单车」，但正文明确为「共享电动滑板车」——<strong>说明校方内部对这两个品类的表述经常混用，沟通时要主动确认口径</strong></td></tr></tbody></table></div>
+<p>来源：河北工程技术学院学生工作处 https://student.hebuet.edu.cn/info/1026/44363.htm</p>
+<p><strong>这份 SLA 是整份报告里最值钱的一张「交付标准清单」</strong>：在线率 ≥95%、2 小时换电、24 小时修复或清运。你在写方案时直接引用这四个指标，校方会立刻认可你的专业度；同时也意味着<strong>你必须在商务谈判时确认运营方能不能承诺这四个指标</strong>——这是选合作方的硬门槛。</p>
+<span class="anchor" id="sec-2-4"></span><h3>2.4 保定理工学院（2021，河北最早的先例）</h3>
+<ul>
+<li>2021 年 9 月，保定理工学院校园内出现<strong>付费共享滑板车</strong>，车上有操作使用说明。</li>
+<li>报道原文提到：「<strong>价格和共享单车差距不大</strong>」；学生反馈「操作起来需要学习一下」，但「既有趣又方便」，「刚刚投入使用后学生们都会争相使用」，「很多学生来晚了会使用不到」。</li>
+<li>来源：https://www.sohu.com/a/491773366_121182637</li>
+</ul>
+<p><strong>这个案例的价值在于它是「需求侧验证」</strong>：5 年前、在河北、没有任何平台推广的情况下，学生自发接受并出现「供不应求」。它证明的是<strong>需求真实存在</strong>，而河北工程技术学院 2026 年的项目则证明<strong>供给方式已经成熟</strong>。</p>
+<span class="anchor" id="sec-2-5"></span><h3>2.5 行业对「校园场景」的定性</h3>
+<p>方案商深圳欧米智能科技在其公开文章中给出了这个行业的共识判断，值得引用：</p>
+<blockquote><p>「大学校园内一般都是属于<strong>私域</strong>的场所，投放共享滑板车的话，不会影响到道路的正常使用，这一点是尤其重要的，因为<strong>在国内基本上共享滑板车是不允许大规模上路的</strong>，所以想要实现量产进行投放市场，这无疑是<strong>不现实</strong>的。」「共享滑板车在校园市场内是盈利的。」</p></blockquote>
+<p>来源：https://www.omnismartiot.cn/show-46-101-1.html</p>
+<p><strong>这段话把行业逻辑讲透了：校园不是「滑板车的场景之一」，而是滑板车在国内唯一能规模化盈利的场景。</strong> 这对你是好消息（你要做的正是校园），也是提醒（所有想做滑板车生意的公司都会来抢校园，竞争会很激烈）。</p>
+<hr>
+<span class="anchor" id="sec-2-6"></span><h3>2.6 招投标记录全景（这一节是渠道方最该背下来的）</h3>
+<p>共享电动滑板车在中国高校<strong>已经是一个进入公开招标流程的正式品类</strong>。以下是本轮检索到的项目（★ 为一手公告原文）：</p>
+<div class="tw"><table><thead><tr><th>#</th><th>采购人</th><th>项目 / 编号</th><th>时间</th><th>中标（成交）方</th><th>关键条款</th><th>服务期</th></tr></thead><tbody><tr><td data-label="#">1</td><td data-label="采购人"><strong>德州学院</strong></td><td data-label="项目 / 编号">共享电动滑板车、共享单车引入服务（SDJA-2025-118）</td><td data-label="时间">2025-07 公告 / 2025-08-05 成交</td><td data-label="中标（成交）方">A1 共享单车：<strong>上海哈啰普惠科技</strong>；<strong>A2 共享电动滑板车：杭州天猫校园技术服务有限公司</strong></td><td data-label="关键条款">A2 限价 1.35/8/17.9/44.9；<strong>成交 1.1 元/15 分钟、日封顶 6 元、月卡 12 元、季卡 32 元</strong>。A1 成交 0.28 元/30 分钟、月卡 3.5 元</td><td data-label="服务期">公告未披露</td></tr><tr><td data-label="#">2</td><td data-label="采购人"><strong>山西科技学院</strong></td><td data-label="项目 / 编号">共享电动滑板车项目（SXGXD2025-6016F）</td><td data-label="时间">2025-10-11 公告 / 10-22 成交</td><td data-label="中标（成交）方"><strong>北京金浪天宇信息技术有限公司</strong></td><td data-label="关键条款"><strong>0.98 元/次、月卡 44 元、季卡 130 元</strong></td><td data-label="服务期">未披露</td></tr><tr><td data-label="#">3</td><td data-label="采购人"><strong>山东建筑大学</strong></td><td data-label="项目 / 编号">引进校园电动摆渡车及共享非机动车运营服务（SDDYZB-ZC-2024090201）</td><td data-label="时间">2024-09 成交</td><td data-label="中标（成交）方">山东珑仁信息科技有限公司</td><td data-label="关键条款"><strong>校方收取资产占用费 17.15 万元/年（固定、不竞报）</strong>；共享自行车 0.65 元/次、月卡 9.8 元；共享助力自行车 0.98 元/次、月卡 16.8 元</td><td data-label="服务期"><strong>5 年，1+1+1+1+1</strong></td></tr><tr><td data-label="#">4</td><td data-label="采购人"><strong>齐鲁师范学院</strong></td><td data-label="项目 / 编号">引进校园共享车辆运营服务（一期）（SDHZ-CS-2023-021）</td><td data-label="时间">2023-08</td><td data-label="中标（成交）方">山东珑仁信息科技有限公司</td><td data-label="关键条款">共享两轮电动车 次卡 1.3 元/20 分钟、超时每 10 分钟 0.3 元、月卡 28.8 元、学期卡 99.8 元、年卡 188.8 元；共享自行车 0.9 元/30 分钟、月卡 15.8 元</td><td data-label="服务期">未披露</td></tr><tr><td data-label="#">5</td><td data-label="采购人"><strong>山东交通学院</strong>（长清校区）</td><td data-label="项目 / 编号">引进校园共享自行车和摆渡车服务（SDHC2026-LX26522）</td><td data-label="时间">2026-06 公告 / 06-24 成交</td><td data-label="中标（成交）方"><strong>广州骑安科技有限公司</strong>（滴滴青桔系）</td><td data-label="关键条款"><strong>校方向运营方收取国有资产有偿使用费 13.22 万元/年</strong>；共享自行车 0.41 元/30 分钟；摆渡车 0.9 元/次</td><td data-label="服务期">首次 2 年，每 2 年一档期，最多续签两次（总 ≤6 年）</td></tr><tr><td data-label="#">6</td><td data-label="采购人"><strong>山东大学</strong>（济南校本部）</td><td data-label="项目 / 编号">共享电动车服务运营（HQZB-2025-006）</td><td data-label="时间">2025-04 公告 / 05-06 开标</td><td data-label="中标（成交）方">未找到结果</td><td data-label="关键条款">资格要求「能<strong>自主投资运营</strong>」</td><td data-label="服务期">3 年，<strong>一年一签</strong></td></tr><tr><td data-label="#">7</td><td data-label="采购人"><strong>武汉轻工大学</strong></td><td data-label="项目 / 编号">共享电动车公司进校园运营</td><td data-label="时间">2024-09</td><td data-label="中标（成交）方">结果正文未取到</td><td data-label="关键条款">「本项目建设资金由<strong>社会投资人全额投资</strong>」，范围含整体设计、施工、<strong>充电棚、非机动车停放场地建设</strong>及运营管理</td><td data-label="服务期">3 年，1+2 分年度签约</td></tr><tr><td data-label="#">8</td><td data-label="采购人"><strong>内蒙古财经大学</strong></td><td data-label="项目 / 编号">引进共享单车（自行车、<strong>助力滑板车</strong>或助力自行车）</td><td data-label="时间">2022-09</td><td data-label="中标（成交）方">包1 上海钧正网络科技；包2 内蒙古讯云信商务咨询</td><td data-label="关键条款">未披露</td><td data-label="服务期">未披露</td></tr><tr><td data-label="#">9</td><td data-label="采购人"><strong>青岛工程职业学院</strong></td><td data-label="项目 / 编号">2023 年共享电动滑板车运营服务项目（SDWXZB202307152）</td><td data-label="时间">2023-07 公告 / 08-04 开标</td><td data-label="中标（成交）方">成交方未找到</td><td data-label="关键条款"><strong>公告原文：「本项目招商方（学院）无需出资」</strong>；运营方投入 <strong>100 辆</strong>；<strong>运营方须为学院提供增值服务，4 年合计不低于人民币 2 万元</strong>（用于教育教学或学生奖助学金）；安保处负责日常监管；不接受联合体</td><td data-label="服务期"><strong>4 年</strong></td></tr><tr><td data-label="#">10</td><td data-label="采购人"><strong>郑州西亚斯学院</strong></td><td data-label="项目 / 编号">共享交通服务项目</td><td data-label="时间">2023-12-20</td><td data-label="中标（成交）方">未找到</td><td data-label="关键条款">分 3 个标段：共享自行车 <strong>1000 辆</strong>、电动自行车 <strong>1000 辆</strong>、<strong>电动滑板车 350 辆</strong>；中标方负责车辆日常运行与管理维护，并协助治理校园非机动车乱停放</td><td data-label="服务期">未披露</td></tr><tr><td data-label="#">11</td><td data-label="采购人"><strong>山西科技学院</strong>（同一学校更早一轮）</td><td data-label="项目 / 编号">引进共享电动滑板车项目（ZHJ-FW-2024146）</td><td data-label="时间">2024-09-23 谈判成交</td><td data-label="中标（成交）方"><strong>北京金浪天宇信息技术有限公司</strong></td><td data-label="关键条款"><strong>1.4 元/15 分钟；48.5 元/月（不限骑行次数）；139 元/季（不限骑行次数）</strong>（与第 2 行 2025 年那一轮计费口径不同，引用以原文为准）</td><td data-label="服务期">未披露</td></tr><tr><td data-label="#">12</td><td data-label="采购人"><strong>临沂科技职业学院</strong></td><td data-label="项目 / 编号">校园共享电动滑板车及共享自行车服务项目 中标公示</td><td data-label="时间">2022-04-28</td><td data-label="中标（成交）方">未找到</td><td data-label="关键条款">未取到正文（付费墙）</td><td data-label="服务期">未披露</td></tr></tbody></table></div>
+<p>来源：见上表各行链接（德州学院 https://www.dzu.edu.cn/info/1103/10826.htm ；山西科技学院 https://www.sxist.edu.cn/info/1501/35961.htm ；山东建筑大学 https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202409/t20240908_23106231.htm ；齐鲁师范学院 https://www.qlnu.edu.cn/info/1851/220249.htm ；山东交通学院 https://zcgl.sdjtu.edu.cn/info/1018/3141.htm ；山东大学 https://www.hqc.sdu.edu.cn/info/1007/9890.htm ；武汉轻工大学 https://bwc.whpu.edu.cn/info/1009/1791.htm ；内蒙古财经大学 https://www.imufe.edu.cn/bwc/info/1012/1299.htm ）</p>
+<p><strong>从这 12 个项目里读出的五条规律（每条都直接影响你的打法）：</strong></p>
+<ol>
+<li><strong>校方的收费方式正在从「流水分成」转向「固定收费」。</strong> 山东建筑大学收 <strong>17.15 万元/年资产占用费</strong>、山东交通学院收 <strong>13.22 万元/年国有资产有偿使用费</strong>，都是<strong>固定金额、不参与竞报</strong>。这对你是好消息：钱是确定性的，不依赖运营方报数。</li>
+<li><strong>滑板车普遍与共享单车在同一个标段里分开发包</strong>（德州学院 A1/A2）。也就是说，校方把滑板车当成共享单车的<strong>升级替代</strong>来配置。</li>
+<li><strong>合同期在拉长</strong>：山东交通学院可续至 6 年、山东建筑大学 5 年（1+1+1+1+1）、温州理工学院到 2030 年。比共享单车「一年一签」友好得多。</li>
+<li><strong>「社会投资人全额投资」是标准写法</strong>（武汉轻工大学），而且范围往往包含<strong>充电棚与停放场地的建设</strong>——这部分工程量与成本必须提前算进去。</li>
+<li><strong>校方最主流的姿态是「零出资 + 要增值服务」，而不是直接要现金分成。</strong> 青岛工程职业学院公告原文写明「<strong>招商方（学院）无需出资</strong>」，只要求运营方 4 年提供不低于 2 万元的教育教学/奖助学金；山东大学要求投标人「<strong>自主投资运营</strong>」。<strong>而且本次检索到的 12 份滑板车项目公告里，没有一份披露分成比例。</strong> 这对你是关键情报：校方要的是「零风险 + 有面子」的增值服务，现金分成反而是你可以主动提出、用来换取渠道身份与排他权的筹码。</li>
+</ol>
+<span class="anchor" id="sec-2-7"></span><h3>2.7 真实的竞标名单 = 这个赛道的实际玩家</h3>
+<p>山东交通学院长清校区项目在成交公告里完整披露了 8 家投标人的评委打分，这是本次调研里关于「头部企业」最有价值的一手材料：</p>
+<div class="tw"><table><thead><tr><th>投标人</th><th>评委打分</th><th>结果</th></tr></thead><tbody><tr><td data-label="投标人"><strong>广州骑安科技有限公司</strong>（滴滴青桔系）</td><td data-label="评委打分">84.32 / 87.32 / 86.32</td><td data-label="结果"><strong>中标</strong></td></tr><tr><td data-label="投标人"><strong>杭州天猫校园技术服务有限公司</strong></td><td data-label="评委打分">83.15 / 83.15 / 83.15</td><td data-label="结果">未中标</td></tr><tr><td data-label="投标人"><strong>上海哈啰普惠科技有限公司</strong></td><td data-label="评委打分">82 / 81 / 86</td><td data-label="结果">未中标</td></tr><tr><td data-label="投标人"><strong>山东珑仁信息科技有限公司</strong></td><td data-label="评委打分">81.86 / 75.86 / 80.86</td><td data-label="结果">未中标</td></tr><tr><td data-label="投标人"><strong>汉海信息技术（上海）有限公司</strong>（美团系）</td><td data-label="评委打分">80.84 / 79.84 / 80.84</td><td data-label="结果">未中标</td></tr><tr><td data-label="投标人">烟台绿橙网络科技有限公司</td><td data-label="评委打分">71.35 / 63.35 / 71.35</td><td data-label="结果">未中标</td></tr><tr><td data-label="投标人">三泉晟辉（济南）供应链有限公司</td><td data-label="评委打分">65.97 / 61.97 / 67.97</td><td data-label="结果">未中标</td></tr><tr><td data-label="投标人">山东诚一网络技术有限公司</td><td data-label="评委打分">65.5 / 62.5 / 66.5</td><td data-label="结果">未中标</td></tr></tbody></table></div>
+<p>来源：https://zcgl.sdjtu.edu.cn/info/1018/3141.htm</p>
+<p><strong>这张表推翻了一个常见误判：真正在校园两轮赛道里拿标的，不是滑板车厂商，而是校园出行运营商。</strong></p>
+<ul>
+<li>第一梯队是 <strong>骑安（青桔）、天猫校园、哈啰、珑仁、美团（汉海）</strong>——五家，全是运营平台，没有一家是整车厂。</li>
+<li><strong>九号轻骑虽然是九号公司的校园运营品牌，做了南京晓庄学院、北京首钢园，但不在任何公开的中标名单里</strong> ——它在做的是<strong>场景合作和加盟</strong>，而不是投标。这对你很重要：<strong>九号是你的「车和方案」来源，不是你的「投标对手」</strong>；而骑安、天猫校园、哈啰、珑仁、美团才是拿标的那一方，也就是你真正要谈渠道合作（或者要一起投标）的对象。</li>
+</ul>
+<hr>
+<span class="anchor" id="sec-3"></span><h2 class="sec" id="s4"><span class="no">4</span>3. 头部企业全景</h2>
+<p>共享电动滑板车的产业链已经分层，分成四层：<strong>整车/车队方案商 → 中控与物联网方案商 → 运营服务商 → 校园渠道/整合方</strong>。你在最后一层。</p>
+<span class="anchor" id="sec-3-1"></span><h3>3.1 整车与车队方案商（第一梯队）</h3>
+<h4>九号公司 Segway-Ninebot（科创板 689009）——这个品类的绝对头部</h4>
+<div class="tw"><table><thead><tr><th>维度</th><th>事实</th></tr></thead><tbody><tr><td data-label="维度">业务主体</td><td data-label="事实"><strong>商用出行事业部</strong>，是九号面向全球<strong>共享微出行行业的 B2B 业务</strong></td></tr><tr><td data-label="维度">合作规模</td><td data-label="事实">自 <strong>2018 年</strong>以来，已与全球<strong>超过 250 家运营商</strong>达成合作</td></tr><tr><td data-label="维度">出货规模</td><td data-label="事实">截至 <strong>2026-06-30</strong>，商用出行事业部共享车辆<strong>全球累计出货超 250 万台</strong></td></tr><tr><td data-label="维度">产品范围</td><td data-label="事实">电动滑板车、E-bike 及<strong>智慧互联出行解决方案</strong></td></tr><tr><td data-label="维度">最新动作</td><td data-label="事实"><strong>2026 年 9 月 14 日</strong>在江苏常州举办<strong>共享出行新品全球发布会</strong>，来自全球的 60 余家运营商企业代表参加，140 多位合作伙伴参观常州工厂产线</td></tr><tr><td data-label="维度">核心理念</td><td data-label="事实"><strong>TCO 2.0</strong>——「不止于车辆的购买价格，而是将<strong>收入、运营支出和硬件投资纳入同一个业务框架</strong>」。商用出行事业部总经理赵欣原话：「TCO 从来不只是打造一辆更便宜的车辆。它关乎设计出能够逐年带来更强回报的车队。」</td></tr><tr><td data-label="维度">研发投入</td><td data-label="事实">2026 年上半年研发投入 <strong>7.5 亿元</strong>，同比增长 <strong>44%</strong>；截至 2026 年上半年累计获得全球性知识产权 <strong>7170 项</strong>，主导或参与国内外技术标准 <strong>150 余项</strong></td></tr><tr><td data-label="维度">国标话语权</td><td data-label="事实"><strong>GB/T 42825-2023《电动滑板车通用技术规范》主要起草单位</strong>（起草单位含「纳恩博(北京)科技有限公司」）</td></tr><tr><td data-label="维度">国际客户</td><td data-label="事实">公开资料显示九号是海外共享滑板车市场主要解决方案供应商，为 <strong>Lime、Bird、Voi、Spin</strong> 等头部运营商提供产品和技术支持</td></tr></tbody></table></div>
+<p>来源：上海证券报·中国证券网（2026-09-16）https://stock.10jqka.com.cn/20260916/c679985303.shtml ；凤凰网 https://i.ifeng.com/c/8wTHpLoQMZD ；国家标准全文公开系统 https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=B959A1C53F19387710E3379919AC6E8B</p>
+<p><strong>B 端产品线与交付能力（官网原文口径，2026-09 抓取）：</strong></p>
+<ul>
+<li><strong>共享车型共 5 款</strong>：Max Series（<strong>Max S100 / Max S90L / Max Plus X</strong>）、<strong>Apex D110L</strong>、<strong>Lite L60E</strong>；另有共享 E-bike（B200 / B100 / A200P / A200）与共享 E-Moped。</li>
+<li><strong>它是成套卖的</strong>（官网导航原样列出）：IoT Technology、Segway Pilot Lite（骑行辅助，Max 系列选配）、<strong>Battery Solution（电池/换电方案）</strong>、<strong>Helmet Solution（头盔方案）</strong>、<strong>Segway Care Commercial（商用维保）</strong>、Hardware Maintenance、Support Ticket、For Fleet Operators。<strong>「产品 + 运营 + 维保」这三件事它都有官方模块</strong>——这正是你需要向校方承诺的三件事。</li>
+<li><strong>官方定位语</strong>：「Segway powers millions of shared vehicles in over <strong>47 countries</strong>」；<strong>B 端对接邮箱 commercial_business@ninebot.com</strong>。</li>
+<li><strong>被点名的海外运营商客户</strong>：欧洲 <strong>Dott / Voi / Ryde</strong>、俄罗斯 <strong>Whoosh / Yandex / Urent</strong>、北美 <strong>Bird / Lime</strong>、南美 <strong>Jet</strong>、韩国 <strong>Gbike</strong>；2024 巴黎奥运会期间与 Dott 合作供应 <strong>1.5 万台</strong>共享 E-bike。</li>
+<li><strong>换电是它 B 端车型的核心设计语言（三处官方原文）</strong>：Max Plus 支持「<strong>swappable battery pack</strong>」并配<strong>防盗电池仓盖</strong>；Lite L60E 的 576Wh 电池官方称可「<strong>降低换电频次与成本</strong>」，电池可拆（6.7 kg、IPX7）；Apex D110L 的 1147Wh 可拆电池把<strong>待机功耗压到 0.85W</strong>，目的就是<strong>减少换电次数</strong>。</li>
+<li><strong>反过来一条必须记住：消费级滑板车不能当共享车队用。</strong> 米家滑板车、Xiaomi 4 Pro 均为<strong>不可换电</strong>，也没有共享中控与防盗设计——「先买一批零售车凑车队」这个想法必须在方案阶段就放弃。</li>
+</ul>
+<p>来源：https://b2b.segway.com/ ；https://b2b.segway.com/max-series-products ；https://b2b.segway.com/max-plus/ ；https://b2b.segway.com/apex-d110l/ ；https://b2b.segway.com/lite-l60e/</p>
+<p><strong>为什么九号是你的第一谈判对象：</strong></p>
+<ul>
+<li>它做的是 <strong>B2B 车队生意</strong>，客户就是运营商——<strong>它需要有人去把校园场景谈下来</strong>，而你有校园资源。</li>
+<li>它对外讲的是 TCO 和「帮合作伙伴解决真实运营难题」，说明它已经越过「卖车」阶段，愿意和合作方一起算运营账。</li>
+<li>它同时有<strong>自有校园运营品牌「九号轻骑」</strong>，且公开招募加盟——这意味着你可以既做它的渠道，也可以做它的区域联营方。</li>
+</ul>
+<h4>九号轻骑（九号公司旗下校园共享运营品牌）</h4>
+<ul>
+<li>定位：面向<strong>高校、园区、景区</strong>的<strong>一站式出行解决方案</strong></li>
+<li>交付内容（原文口径）：合理的<strong>校园交通规划</strong> + 智能共享滑板车辆投放 + <strong>车辆标准化管理运营</strong></li>
+<li>落地案例：<strong>南京晓庄学院</strong>（2022-08），该校 3 个校区、校园总面积近 1500 亩、全日制本科在校生 18000 余人</li>
+<li>渠道政策：2022 年起公开<strong>招募加盟</strong></li>
+<li>来源：https://t.cj.sina.com.cn/articles/view/6348562602/17a6760aa001010joj ；https://zhuanlan.zhihu.com/p/532780183</li>
+</ul>
+<h4>其他整车厂商（作为比价与备选）</h4>
+<ul>
+<li>GB/T 42825-2023 的起草单位名单本身就是一份「这个品类的正经玩家清单」，除九号（纳恩博）外还包括：<strong>小米通讯技术有限公司、雅迪科技集团、江苏小牛电动科技、浙江涛涛车业、浙江飞神车业、南京快轮智能科技、深圳猛犸出行科技、东莞新能安科技、惠州德赛电池</strong>等。</li>
+<li>来源：https://std.samr.gov.cn/gb/search/gbDetailed?id=02814EA35DE4C92EE06397BE0A0AEAA9</li>
+<li>提示：<strong>能不能进这个名单，可以作为判断一个滑板车供应商是不是正规军的标准。</strong> 校方招标时看重生产资质与标准符合性，用这份名单做背书很有用。</li>
+</ul>
+<span class="anchor" id="sec-3-2"></span><h3>3.2 中控与物联网方案商（决定「能不能运营」的一层）</h3>
+<div class="tw"><table><thead><tr><th>公司</th><th>产品</th><th>关键信息</th><th>来源</th></tr></thead><tbody><tr><td data-label="公司"><strong>深圳市泰比特物联技术有限公司（T-Bit）</strong></td><td data-label="产品">共享两轮车整套解决方案：品牌电动车、<strong>共享电动滑板车智能中控 WD-260 / WD-260C</strong>、管理平台、运维小程序、用户小程序、规范停车；另有「充/换电电柜 + 车辆中控 + 租赁 SAAS」</td><td data-label="关键信息">官网方案页称可提供「<strong>车辆、中控、软件、金融等整套服务</strong>」，并支持「<strong>加盟 + 品牌定制</strong>」；服务热线 400-0809-700、sales@tbit.com.cn。<strong>「共享行业市占率 60%+」为企业自报口径，本轮未取得原始出处，不得引用</strong></td><td data-label="来源">https://tbit.com.cn/sharedControl/WD-260.html</td></tr><tr><td data-label="公司"><strong>深圳市欧米智能科技（Omni）</strong></td><td data-label="产品"><strong>校园共享电动滑板车 IOT 中控</strong>、车队管理系统、共享电单车一站式方案、头盔锁、蓝牙道钉、智能车位锁、充电桩</td><td data-label="关键信息">官网把「共享电动滑板车解决方案」单列为一级方案，并撰文论证「校园是私域场景」这一行业共识</td><td data-label="来源">https://www.omnismartiot.cn/show-106-104-1.html</td></tr></tbody></table></div>
+<p><strong>两家方案商的技术参数（官网原文，2026-09 抓取）：</strong></p>
+<ul>
+<li><strong>泰比特 WD-260</strong>：防护 <strong>IP67</strong>；输入电压 <strong>12V–72V 宽压</strong>；工作温度 <strong>-20℃ ~ +70℃</strong>；<strong>4G</strong>（LTE-FDD/TDD，最大发射功率 23dBm）+ <strong>GPS 与北斗双模</strong>（定位精度 10 m，冷启动 35 s）；<strong>BLE 4.2</strong>，装车接收距离 10–20 m；V0 级防火 PC 外壳，尺寸 159.31 × 43.98 × 64 mm；内置 3.7V / 600mAh 备用电池。功能含<strong>设防撤防、电池锁（可选）、头盔锁（可选）、语音播报、BMS 通讯、车灯控制、ACC 检测、轮动检测、震动检测、OTA 远程升级</strong>。</li>
+<li><strong>欧米校园共享电动滑板车中控</strong>：防护 <strong>IP67</strong>；工作温度 -20℃ ~ 65℃；输入电压 <strong>24–100V</strong>；净重 <strong>240 g</strong>；<strong>BLE 5.2</strong>；PC 塑胶外壳。配套硬件含<strong>头盔钢缆二合一锁、蓝牙 U 型锁、蓝牙道钉、智能车位锁、充电桩与 SAAS 平台</strong>。</li>
+<li>来源：https://tbit.com.cn/sharedControl/WD-260.html ；https://www.tbitiot.com/sharedControl/ ；https://www.omnismartiot.cn/show-106-104-1.html ；https://www.omnisharing.cn/gongxiangdiandonghuabanchefangan/</li>
+</ul>
+<blockquote><p><strong>中控报价的现实：</strong> 两家官网都只给「免费获取报价」入口，<strong>中控硬件单价、按台年费、SaaS 订阅费、平台买断价全网均无公开数据</strong>。若你打算自建运营，这是必须最先问清的一笔钱。</p></blockquote>
+<p><strong>这一层的意义：</strong> 如果你打算自己（或与本地伙伴）做运营，而不只是转介给大平台，<strong>就必须有中控方案商</strong>——它提供扫码开锁、定位、电子围栏、计费、后台管理、运维工单。泰比特这类公司的存在，意味着<strong>「自建运营」的技术门槛已经不高</strong>，真正的门槛在车辆采购资金、校方关系和线下运维人力。</p>
+<span class="anchor" id="sec-3-3"></span><h3>3.3 运营服务商（真正在校园里跑的）</h3>
+<div class="tw"><table><thead><tr><th>运营方</th><th>校园落地</th><th>模式</th><th>是否欢迎渠道方</th></tr></thead><tbody><tr><td data-label="运营方"><strong>天猫校园</strong></td><td data-label="校园落地"><strong>河北工程技术学院</strong>（2026-03，300 辆电动滑板车，整体运营）；另有「喵充电」两轮车充电业务；与艾能新能合作做高校能源出行场景</td><td data-label="模式">平台自建运营团队，给出明确 SLA（在线率 ≥95%、2 小时换电、24 小时修复）</td><td data-label="是否欢迎渠道方">未找到公开的渠道政策</td></tr><tr><td data-label="运营方"><strong>九号轻骑</strong></td><td data-label="校园落地">南京晓庄学院（2022-08）</td><td data-label="模式">校园/园区/景区一站式解决方案</td><td data-label="是否欢迎渠道方"><strong>公开招募加盟</strong></td></tr><tr><td data-label="运营方"><strong>上海哈啰普惠科技有限公司（哈啰）</strong></td><td data-label="校园落地"><strong>德州学院</strong>「共享电动滑板车、共享单车引入服务项目」（2025-08）<strong>A1 共享单车包中标</strong>（0.28 元/30 分钟、月卡 3.5 元）</td><td data-label="模式"><strong>一条重要修正：哈啰中的是共享单车标段，A2 共享电动滑板车标段的成交方是杭州天猫校园。本次检索到的所有滑板车项目里，未见哈啰、美团、青桔中标的记录</strong></td><td data-label="是否欢迎渠道方">哈啰有成熟的校园与区域合作体系，是最有可能切入滑板车运营的平台之一，值得直接接触确认</td></tr><tr><td data-label="运营方"><strong>小潮出行</strong>（武汉昆江科技）</td><td data-label="校园落地">校园共享电动滑板车投放运营；2023 年亮相第五届中国教育后勤展览会（CCLE）</td><td data-label="模式">「为校园出行定制<strong>全生命周期的一站式解决方案</strong>」：定点定时作业、干预故障车辆、车辆换电、校内调度，接入学校智慧校园体系；配<strong>太阳能无线充电系统</strong></td><td data-label="是否欢迎渠道方">未找到公开渠道政策</td></tr><tr><td data-label="运营方">松果出行</td><td data-label="校园落地">被第三方行业报告列为共享滑板车运营商之一（<strong>二手引用，需核验</strong>）</td><td data-label="模式">—</td><td data-label="是否欢迎渠道方">官网设渠道合作</td></tr></tbody></table></div>
+<p>来源：https://student.hebuet.edu.cn/info/1026/44363.htm ；https://zcc.dzu.edu.cn/info/1007/4528.htm ；https://www.sohu.com/a/649415364_100257720 ；https://www.docin.com/p-4997971820.html</p>
+<span class="anchor" id="sec-3-4"></span><h3>3.4 「产品 + 运营 + 维保」一体化能力对比</h3>
+<div class="tw"><table><thead><tr><th>企业</th><th>产品</th><th>运营</th><th>维保</th><th>是否接受「你只出校方资源」</th><th>优先级</th></tr></thead><tbody><tr><td data-label="企业"><strong>九号 / 九号轻骑</strong></td><td data-label="产品">✅ 自产，全球最大共享滑板车供应商</td><td data-label="运营">✅ 有校园运营品牌与运营方法论（TCO 2.0）</td><td data-label="维保">✅</td><td data-label="是否接受「你只出校方资源」">✅ 公开招加盟；B2B 事业部本身就是渠道生意</td><td data-label="优先级"><strong>第一</strong></td></tr><tr><td data-label="企业"><strong>天猫校园</strong></td><td data-label="产品">✅（采购+定制）</td><td data-label="运营">✅ 自建团队，有可验证 SLA</td><td data-label="维保">✅</td><td data-label="是否接受「你只出校方资源」">未找到公开政策，需直接接触</td><td data-label="优先级"><strong>第一</strong>（已在河北落地，必须谈）</td></tr><tr><td data-label="企业"><strong>哈啰</strong></td><td data-label="产品">✅</td><td data-label="运营">✅ 有校园共享出行体系</td><td data-label="维保">✅</td><td data-label="是否接受「你只出校方资源」">⚠️ 有招标能力与区域合作传统，但<strong>尚无公开的滑板车中标记录</strong></td><td data-label="优先级"><strong>第一</strong>（平台侧首选之一；需先确认其是否已推出滑板车产品线）</td></tr><tr><td data-label="企业"><strong>深圳泰比特</strong></td><td data-label="产品">✅ 硬件+平台</td><td data-label="运营">✅ 提供 SaaS 与运维工具链</td><td data-label="维保">工具层</td><td data-label="是否接受「你只出校方资源」">✅ B2B 方案输出</td><td data-label="优先级">第二（自建运营时必选）</td></tr><tr><td data-label="企业"><strong>小潮出行</strong></td><td data-label="产品">✅</td><td data-label="运营">✅ 全生命周期一站式</td><td data-label="维保">✅</td><td data-label="是否接受「你只出校方资源」">未找到政策</td><td data-label="优先级">第二</td></tr><tr><td data-label="企业"><strong>深圳欧米智能</strong></td><td data-label="产品">✅ 方案+设备</td><td data-label="运营">工具层</td><td data-label="维保">工具层</td><td data-label="是否接受「你只出校方资源」">✅ 方案输出</td><td data-label="优先级">第三（备选方案商）</td></tr></tbody></table></div>
+<p><strong>读表结论：真正意义上的「产品 + 运营 + 维保」一体化，在这个品类里是存在的</strong>（九号、天猫校园、小潮出行、金浪天宇）。</p>
+<hr>
+<span class="anchor" id="sec-4"></span><h2 class="sec" id="s5"><span class="no">5</span>4. 产品、标准、成本与「交钥匙」能力</h2>
+<span class="anchor" id="sec-4-1"></span><h3>4.1 有国标了，这是这个品类能规模化的关键前提</h3>
+<p><strong>GB/T 42825-2023《电动滑板车通用技术规范》</strong></p>
+<div class="tw"><table><thead><tr><th>项目</th><th>内容</th></tr></thead><tbody><tr><td data-label="项目">标准号</td><td data-label="内容">GB/T 42825-2023</td></tr><tr><td data-label="项目">标准名称</td><td data-label="内容">电动滑板车通用技术规范（General technical specification for electric scooters）</td></tr><tr><td data-label="项目">性质</td><td data-label="内容">国家标准，<strong>推荐性</strong>，现行</td></tr><tr><td data-label="项目">发布 / 实施</td><td data-label="内容">2023-08-06（发布即实施）</td></tr><tr><td data-label="项目">归口单位</td><td data-label="内容">TC155 全国自行车标准化技术委员会</td></tr><tr><td data-label="项目">主管部门</td><td data-label="内容">中国轻工业联合会</td></tr><tr><td data-label="项目">国际标准分类号</td><td data-label="内容">43.140（摩托车和机动自行车）</td></tr><tr><td data-label="项目">规定范围</td><td data-label="内容">电动滑板车的<strong>结构、性能、电气安全、机械安全、部件、环境适应性</strong>等</td></tr><tr><td data-label="项目">主要起草单位</td><td data-label="内容">无锡市检验检测认证研究院、<strong>纳恩博(北京)科技有限公司（九号）</strong>、上海电器科学研究院、中国自行车协会、<strong>小米通讯技术有限公司</strong>、雅迪科技集团、江苏小牛电动科技、浙江涛涛车业、浙江飞神车业、南京快轮智能科技、深圳猛犸出行科技、东莞新能安科技、惠州德赛电池等</td></tr></tbody></table></div>
+<p>来源：国家标准全文公开系统 https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=B959A1C53F19387710E3379919AC6E8B ；全国标准信息公共服务平台 https://std.samr.gov.cn/gb/search/gbDetailed?id=02814EA35DE4C92EE06397BE0A0AEAA9</p>
+<p><strong>这份国标对你的三个实际用途：</strong></p>
+<ol>
+<li><strong>写进方案的资质要求</strong>：让校方在招标文件中要求「所投车辆符合 GB/T 42825-2023」，可以直接筛掉低价杂牌车，保护你自己和校方的安全责任。</li>
+<li><strong>判断供应商</strong>：愿意且能够声明符合国标的供应商，基本就是这个品类的正规军；起草单位名单是最硬的背书清单。</li>
+<li><strong>安全责任的护身符</strong>：校园滑板车最大的风险是骑行事故。有国标符合性证明，出问题时你这条线上是站得住的。</li>
+</ol>
+<span class="anchor" id="sec-4-2"></span><h3>4.2 车辆形态：校园定制版是标配</h3>
+<p>以国科大雁栖湖校区的校园版车辆为例，可以看到校园定制车的标准配置：</p>
+<ul>
+<li><strong>校园定制外观</strong>：蓝白配色 + 校方 logo（校方非常在意这一点，是「智慧校园」的门面）</li>
+<li><strong>固定高度车身</strong>（满足多数人群，降低调节机构故障率）</li>
+<li><strong>车筐</strong>（承载随行物品，提升实用性）</li>
+<li><strong>车头行车灯</strong>（夜间安全，也是校方会提的合规要求）</li>
+<li><strong>减震轮胎</strong>（降低颠簸，提升安全系数）</li>
+<li><strong>扫码解锁</strong>：微信/支付宝扫车头二维码（<strong>不要求下载 App</strong>，这在校方看起来是关键加分项，也符合校方「不强制绑卡」的监管倾向）</li>
+</ul>
+<p>来源：https://www.thepaper.cn/newsDetail_forward_24733399</p>
+<p><strong>九号侧的车队方案</strong>则把重点放在 TCO 2.0：不是单一车型参数，而是<strong>把收入、运营支出和硬件投资放进同一个框架</strong>去设计车队。这意味着九号卖给运营商的是「怎么让这台车在整个生命周期里赚更多钱」，包括车辆耐用性、可维护性、电池方案和数字化管理。</p>
+<span class="anchor" id="sec-4-3"></span><h3>4.3 共享车型参数对照表（只收录有官方来源的参数）</h3>
+<p>下表把「能当共享车队用的车」和「消费级零售车」放在一起对比。<strong>这张表是你说服校方、以及对供应商比价的核心工具</strong>（空格 = 公开渠道未找到）：</p>
+<div class="tw"><table><thead><tr><th>品牌 / 型号</th><th>定位</th><th>最高时速</th><th>标称续航</th><th>电池</th><th>换电 / 可拆电池</th><th>车重</th><th>制动</th><th>中控</th></tr></thead><tbody><tr><td data-label="品牌 / 型号">Segway <strong>Max S100</strong></td><td data-label="定位">共享旗舰</td><td data-label="最高时速">25 km/h</td><td data-label="标称续航">43 / 80 km</td><td data-label="电池">36V 551Wh / 1033Wh</td><td data-label="换电 / 可拆电池">未在参数表标注</td><td data-label="车重">约 30 kg</td><td data-label="制动">鼓刹 + 电子刹</td><td data-label="中控">Gen-3Sg IoT</td></tr><tr><td data-label="品牌 / 型号">Segway <strong>Max S90L</strong></td><td data-label="定位">共享旗舰</td><td data-label="最高时速">25 km/h</td><td data-label="标称续航">44 / 80 km</td><td data-label="电池">36V 551Wh / 1033Wh</td><td data-label="换电 / 可拆电池">未在参数表标注</td><td data-label="车重">约 31 kg</td><td data-label="制动">鼓刹 + 电子刹</td><td data-label="中控">Gen-3Sg IoT</td></tr><tr><td data-label="品牌 / 型号">Segway <strong>Max Plus X</strong></td><td data-label="定位">共享旗舰</td><td data-label="最高时速">25 km/h</td><td data-label="标称续航">39 / 73 km</td><td data-label="电池">36V 551Wh / 1033Wh</td><td data-label="换电 / 可拆电池">未在参数表标注</td><td data-label="车重">约 29.6 kg</td><td data-label="制动">鼓刹 + 电子刹</td><td data-label="中控">Gen-3Sg IoT</td></tr><tr><td data-label="品牌 / 型号">Segway <strong>Max Plus</strong></td><td data-label="定位">舒适型共享</td><td data-label="最高时速">25 km/h</td><td data-label="标称续航">50 km</td><td data-label="电池">—</td><td data-label="换电 / 可拆电池"><strong>✅ 可换电</strong>（官方原文：swappable battery pack + 防盗电池仓盖）</td><td data-label="车重">—</td><td data-label="制动">左右独立刹把 + 双悬挂</td><td data-label="中控">Built-in IoT（异常告警 / API）</td></tr><tr><td data-label="品牌 / 型号">Segway <strong>Apex D110L</strong></td><td data-label="定位">新一代旗舰（TCO 导向）</td><td data-label="最高时速">—</td><td data-label="标称续航"><strong>100 km</strong>（25℃ / 无风 / 75kg / 沥青路 / 16km/h 匀速条件）</td><td data-label="电池">46.8V <strong>1147Wh</strong>（13S5P，21700 电芯）</td><td data-label="换电 / 可拆电池"><strong>✅ 电池可拆</strong>（8.6 kg）；<strong>待机功耗 0.85W</strong> 以减少换电频次</td><td data-label="车重">—</td><td data-label="制动">升级鼓刹 + 防碎屑护罩</td><td data-label="中控">Gen-3Sg IoT</td></tr><tr><td data-label="品牌 / 型号">Segway <strong>Lite L60E</strong></td><td data-label="定位">主打最低全生命周期成本</td><td data-label="最高时速">—</td><td data-label="标称续航">50 km</td><td data-label="电池">48V 12Ah <strong>576Wh</strong>（6.7 kg，IPX7）</td><td data-label="换电 / 可拆电池"><strong>✅ 支持换电</strong>（官方称可降低换电频次与成本）</td><td data-label="车重">—</td><td data-label="制动">前双悬挂</td><td data-label="中控">Gen-3Sg IoT</td></tr><tr><td data-label="品牌 / 型号"><strong>金浪天宇 C5</strong></td><td data-label="定位">校园共享（自研）</td><td data-label="最高时速">有弯道限速 8 km/h、静音区 5 km/h 规则</td><td data-label="标称续航">—</td><td data-label="电池">—</td><td data-label="换电 / 可拆电池">运营侧为「换电 + 巡检」一体化</td><td data-label="车重"><strong>25.8 kg</strong></td><td data-label="制动"><strong>四重制动</strong>（电子 + 机械鼓刹 + 脚踏 + 能量回收），紧急制动 &lt; 3 m</td><td data-label="中控"><strong>北斗 + GPS 双模</strong>，离线可续骑 3 km</td></tr><tr><td data-label="品牌 / 型号">坦途创新「苏慧行」</td><td data-label="定位">景区 / 校园共享</td><td data-label="最高时速"><strong>限速 15 km/h</strong></td><td data-label="标称续航">55 km</td><td data-label="电池">—</td><td data-label="换电 / 可拆电池">—</td><td data-label="车重">—</td><td data-label="制动">—</td><td data-label="中控">—</td></tr><tr><td data-label="品牌 / 型号">小潮出行 FM-C5</td><td data-label="定位">校园共享</td><td data-label="最高时速">—</td><td data-label="标称续航">—</td><td data-label="电池">—</td><td data-label="换电 / 可拆电池">官方称可换电</td><td data-label="车重">—</td><td data-label="制动">—</td><td data-label="中控">—</td></tr><tr><td data-label="品牌 / 型号"><strong>米家滑板车 / Xiaomi 4 Pro</strong>（对照）</td><td data-label="定位">消费级零售</td><td data-label="最高时速">25 km/h</td><td data-label="标称续航">30 / 55 km</td><td data-label="电池">446 Wh（4 Pro）</td><td data-label="换电 / 可拆电池">❌ <strong>不可换电</strong></td><td data-label="车重">约 12.5 kg</td><td data-label="制动">E-ABS + 碟刹</td><td data-label="中控">蓝牙 + 手机 App（<strong>非共享中控</strong>）</td></tr></tbody></table></div>
+<p>来源：https://b2b.segway.com/max-series-products ；https://b2b.segway.com/max-plus/ ；https://b2b.segway.com/apex-d110l/ ；https://b2b.segway.com/lite-l60e/ ；https://www.cinn.cn/2025/06-27/MDZBVQ2D.html ；https://www.sohu.com/a/792653908_420849 ；https://www.mi.com/global/product/xiaomi-electric-scooter-4-pro/</p>
+<p><strong>三条读表结论：</strong></p>
+<ol>
+<li><strong>「能不能换电」是共享车型的分水岭，也是你选型的第一个问题。</strong> 九号三款 B 端车型都把「减少换电次数」当成卖点；消费级车全部不可换电——<strong>买零售车凑车队，会在第一个月就被 SLA 打爆</strong>（河北工程技术学院要求低电量车辆 2 小时内完成换电）。</li>
+<li><strong>续航数据的可比性很差。</strong> 只有 Apex D110L 给了完整测试条件，其余都是「厂商标称」。校园是<strong>短途高频</strong>场景（单次 1-2 公里），40 km 级续航已经够用，<strong>没必要为 100 km 的续航付溢价</strong>。</li>
+<li><strong>最大载重（承重）全网没有一家公开。</strong> 这是招标文件会问、说明书里查不到的参数，必须向供应商书面索取。</li>
+</ol>
+<span class="anchor" id="sec-4-4"></span><h3>4.4 成本口径：这是本报告最大的数据缺口</h3>
+<p><strong>必须诚实说明：本轮调研未找到共享电动滑板车的公开 B 端车队采购价。</strong></p>
+<ul>
+<li>百度爱采购、阿里巴巴 1688 上都有「共享电动滑板车」批发条目，但<strong>未展示可引用的具体单价</strong>，且这些渠道的车辆通常不符合 GB/T 42825-2023，不能用于正规校园项目。</li>
+<li>消费者零售价（九号 E 系列、F 系列等）可以作为量级参照，但<strong>车队采购价通常显著低于零售价</strong>，直接拿零售价做测算会严重高估成本。</li>
+<li>早期的参照系是共享电动车：筋斗云出行 2017 年披露「单辆电动车成本目标控制在 <strong>1500 元以内</strong>」（<strong>2017 年口径，且是目标值不是实际值</strong>）。滑板车的整车用料少于电动车，但共享车型会加固（防破坏、加固车架、可换电电池），实际单价需要向供应商询价。</li>
+<li>来源：https://www.36kr.com/p/1721510576129</li>
+</ul>
+<p><strong>行动建议：</strong> 把「车队单价、电池方案与单价、中控单价、SAAS 年费」列为向九号商用出行事业部 / 泰比特询价的<strong>第一批问题</strong>。这四个数字决定了你的整个测算能不能成立。</p>
+<span class="anchor" id="sec-4-5"></span><h3>4.5 换电 vs 集中充电：运维模式的选择</h3>
+<p>校园滑板车有两种补能路径，直接决定了运维人力成本：</p>
+<div class="tw"><table><thead><tr><th>模式</th><th>做法</th><th>优点</th><th>缺点</th></tr></thead><tbody><tr><td data-label="模式"><strong>换电</strong></td><td data-label="做法">车辆配可拆卸电池，运维人员骑电动车带满电电池巡检，现场换电</td><td data-label="优点">单车停摆时间极短；河北工程技术学院要求「低电量车辆 <strong>2 小时内</strong>完成换电」，<strong>只有换电模式能稳定满足这个 SLA</strong></td><td data-label="缺点">需要备用电池池（电池数量 &gt; 车辆数）、需要专门的充电仓</td></tr><tr><td data-label="模式"><strong>集中充电</strong></td><td data-label="做法">把车收拢回充电点集中充电</td><td data-label="优点">初始投入低</td><td data-label="缺点">车辆停摆时间长，无法满足 2 小时换电承诺</td></tr></tbody></table></div>
+<ul>
+<li>河北工程技术学院的招标/公告明确写了 <strong>2 小时换电 + 24 小时修复或清运</strong>，这说明<strong>校方已经在按换电模式写要求</strong>。</li>
+<li>参考同类做法：校园共享电单车运营商骑宜骑把<strong>充电仓库建在校园外，每日将电池运入校内</strong>——这是解决校内消防合规的标准做法（校内严禁楼内充电、整治飞线充电）。滑板车项目应沿用同一思路。</li>
+<li>来源：https://student.hebuet.edu.cn/info/1026/44363.htm ；https://www.36kr.com/p/1721510576129</li>
+</ul>
+<hr>
+<span class="anchor" id="sec-5"></span><h2 class="sec" id="s6"><span class="no">6</span>5. 运营经济性与计费模型</h2>
+<span class="anchor" id="sec-5-1"></span><h3>5.1 有据可查的计费台账（这是全报告最硬的定价依据）</h3>
+<div class="tw"><table><thead><tr><th>学校</th><th>时间</th><th>计费结构</th><th>备注</th><th>来源</th></tr></thead><tbody><tr><td data-label="学校"><strong>德州学院</strong>（山东）</td><td data-label="时间">2025-07 磋商 / 2025-08-05 成交</td><td data-label="计费结构"><strong>A2 包 共享电动滑板车</strong>：最高限价 1.35 元/15 分钟、日封顶 8 元、月卡 17.9 元、季卡 44.9 元；<strong>实际成交价：1.1 元/15 分钟、日封顶 6 元、月卡 12 元、季卡 32 元</strong></td><td data-label="备注">成交方为<strong>杭州天猫校园技术服务有限公司</strong>；月卡/季卡有效期内每日不限次数骑行，每次<strong>前 15 分钟免费</strong>，后续每 15 分钟按正常价计费；非月卡季卡实行 <strong>10 分钟内免费换乘</strong></td><td data-label="来源">限价 https://zcc.dzu.edu.cn/info/1007/4513.htm ；成交 https://www.dzu.edu.cn/info/1103/10826.htm</td></tr><tr><td data-label="学校">德州学院</td><td data-label="时间">同上</td><td data-label="计费结构"><strong>A1 包 共享单车</strong>：限价 1.6 元/30 分钟、月卡 13.4 元、季卡 38 元、超范围调度费 10 元；<strong>实际成交价：0.28 元/前 30 分钟、后续 0 元、月卡 3.5 元、季卡 9.9 元、调度费 0 元</strong></td><td data-label="备注">成交方为<strong>上海哈啰普惠科技有限公司</strong>（与 A2 包中标方不同人）。<strong>注意：同校同标段，共享单车只卖 0.28 元，滑板车卖 1.1 元——滑板车的溢价是真实存在的（约 4 倍），但被日封顶价压住了上限</strong></td><td data-label="来源">同上</td></tr><tr><td data-label="学校"><strong>山西科技学院</strong>（山西）</td><td data-label="时间">2025-10 磋商（SXGXD2025-6016F）</td><td data-label="计费结构">共享电动滑板车：<strong>0.98 元/次；月卡 44 元；季卡 130 元</strong></td><td data-label="备注">成交方<strong>北京金浪天宇信息技术有限公司</strong>；标书费 500 元</td><td data-label="来源">https://www.sxist.edu.cn/info/1501/35961.htm</td></tr><tr><td data-label="学校"><strong>温州理工学院</strong>滨海校区</td><td data-label="时间">2025-10 磋商（WZSLZB-YW-20250905）</td><td data-label="计费结构">未披露价格条款；<strong>服务期限至 2030-10-31（约 5 年）</strong>、<strong>数量 300 辆</strong>（后续按实际经营需要调整）</td><td data-label="备注">非政府采购、校内磋商、不接受联合体</td><td data-label="来源">https://www.wzut.edu.cn/art/art_1516/art_108366.html</td></tr><tr><td data-label="学校">德州学院</td><td data-label="时间">同上</td><td data-label="计费结构">共享自行车（A1 包）：单次前 30 分钟 1.6 元；后续每 30 分钟 1.6 元；月卡 13.4 元；季卡 38 元；<strong>超范围调度费 10 元</strong></td><td data-label="备注">同样为最高收费限价</td><td data-label="来源">同上</td></tr><tr><td data-label="学校"><strong>中国科学院大学</strong>雁栖湖校区</td><td data-label="时间">2023-09 上线</td><td data-label="计费结构">基础价 <strong>1.5 元，含 15 分钟、2 公里内</strong>；超出后<strong>每 1 分钟加收 1 元、每 1 公里加收 1 元</strong></td><td data-label="备注">另有「十次免费骑行」限时活动和特惠次卡</td><td data-label="来源">https://www.thepaper.cn/newsDetail_forward_24733399</td></tr><tr><td data-label="学校"><strong>温州理工学院</strong>滨海校区</td><td data-label="时间">2025-10 磋商</td><td data-label="计费结构">未披露价格条款；已知<strong>服务期限至 2030-10-31（约 5 年）</strong>、<strong>数量 300 辆</strong>（后续按实际经营需要调整）</td><td data-label="备注">非政府采购、校内磋商、不接受联合体</td><td data-label="来源">https://www.wzut.edu.cn/art/art_1516/art_108366.html</td></tr></tbody></table></div>
+<p><strong>几个可以直接用于谈判的结论：</strong></p>
+<ol>
+<li><strong>校园滑板车的价格天花板是 1.35-1.5 元/15 分钟。</strong> 德州学院把它写成了<strong>最高收费限价</strong>，国科大的实际定价是 1.5 元/15 分钟。你的所有测算必须建立在 1.35-1.5 元这个区间上，不要假设更高。</li>
+<li><strong>月卡是关键产品。</strong> 德州学院给到 <strong>17.9 元/月</strong>（每日不限次、前 15 分钟免费），温州理工、国科大也都用「次卡/优惠」做用户锁定。<strong>月卡会拉低单次收入，但会显著提高车辆周转率和用户黏性</strong>——测算时不能只看单次价格，要把月卡用户的摊薄系数算进去。</li>
+<li><strong>日封顶 8 元</strong> 是个精巧的设计：既保护学生不被高额扣费（减少舆情），又给高频用户设了上限，同时避免月卡对短途用户过度让利。</li>
+<li><strong>超范围调度费（自行车 10 元）</strong> 是校方非常喜欢的条款——它把「乱停放」的管理成本转移给了用户，也给了运营方收入。滑板车项目应当主动提出这一条。</li>
+<li><strong>合同期普遍是 3-5 年</strong>（温州理工到 2030-10，约 5 年），比共享单车「一年一签」的写法宽松，对重资产投入友好。</li>
+</ol>
+<span class="anchor" id="sec-5-2"></span><h3>5.2 校方在招标里已经在要求的运营 SLA</h3>
+<p>河北工程技术学院 2026 年项目公开的运营标准，可以直接作为你的交付承诺基线：</p>
+<div class="tw"><table><thead><tr><th>指标</th><th>要求</th></tr></thead><tbody><tr><td data-label="指标">车辆在线率</td><td data-label="要求"><strong>不低于 95%</strong>（全天候保障）</td></tr><tr><td data-label="指标">换电时效</td><td data-label="要求">低电量车辆 <strong>2 小时内</strong>完成换电</td></tr><tr><td data-label="指标">故障处置</td><td data-label="要求">故障车辆 <strong>24 小时内</strong>修复或清运离场</td></tr><tr><td data-label="指标">停放规范</td><td data-label="要求">电子围栏，<strong>100% 规范停放</strong>、车头同向、入框整齐</td></tr><tr><td data-label="指标">管理方式</td><td data-label="要求">运营团队<strong>网格化管理</strong></td></tr></tbody></table></div>
+<p>来源：https://student.hebuet.edu.cn/info/1026/44363.htm</p>
+<blockquote><p><strong>这五个指标是「你能不能接这个活」的硬门槛。</strong> 与运营方谈判时，如果对方无法承诺「95% 在线率 + 2 小时换电 + 24 小时清运」，项目就不该签——因为校方一旦按这个标准考核，不达标就要被扣分甚至终止合同。</p></blockquote>
+<span class="anchor" id="sec-5-3"></span><h3>5.3 测算模板</h3>
+<blockquote><p><strong>以下是在明确写出的假设下做的推演，不是查证数据。</strong> 车辆单价、日均单量等关键参数本轮未找到可靠公开来源，所以下面的数字请当作「待填模板」而不是结论。</p></blockquote>
+<p><strong>基准参数（来自真实招标文件，可直接用）：</strong></p>
+<ul>
+<li>规模：<strong>300 辆</strong>（温州理工学院 2025 年招标实际数量）</li>
+<li>单次价格：<strong>1.35 元/15 分钟</strong>（德州学院 A2 包实际最高限价）</li>
+<li>日封顶：<strong>8 元</strong>（德州学院）</li>
+<li>月卡：<strong>17.9 元</strong>（德州学院）</li>
+<li>合同期：<strong>5 年</strong>（温州理工学院实际期限）</li>
+</ul>
+<p><strong>待你向供应商/运营方确认的假设（每个都会大幅影响结果）：</strong></p>
+<ul>
+<li>① 单台车队采购价（含中控、电池）——<strong>最关键，未找到</strong>。唯一可用的量级参照：第三方估算海外共享滑板车<strong>制造成本 $250–$500/台（约 1800–3600 元人民币，非官方，见 6.4）</strong></li>
+<li>② 单车日均骑行次数</li>
+<li>③ 月卡用户占比与摊薄系数</li>
+<li>④ 年有效运营天数（校园通常 9-10 个月 ≈ 270 天，寒暑假流水近乎归零）</li>
+<li>⑤ 换电/调度人力成本、丢失率、损坏率</li>
+</ul>
+<p><strong>测算公式（把它填完就是你的商业计划）：</strong></p>
+<p>``<code> 年流水 = 车辆数 × 日均单量 × 270 天 × 单次实收（含月卡摊薄） 年成本 = 车辆折旧 + 电池 + 人力（换电/调度/维修）+ 平台费 + 场地分成 + 保险 年毛利 = 年流水 − 年成本 回本周期 = 单台总投入 ÷ 单台年毛利 </code>``</p>
+<p><strong>举一个纯示意性的算例（数字全部为我假设，仅演示算法）：</strong></p>
+<ul>
+<li>300 辆 × 日均 3 单 × 270 天 × 平均实收 1.2 元 ≈ <strong>29.2 万元/年流水</strong></li>
+<li>若单台含中控与电池投入 3000 元，300 辆 = 90 万元投入</li>
+<li>则年流水需覆盖「折旧 18 万（5 年）+ 人力 + 分成 + 平台费」后才有利润</li>
+<li>注意：这里的 <strong>3000 元/台</strong> 只是引用同类招商页的量级口径（http://www.xqchuxing.cn/cooperate.html ），<strong>不是滑板车车队报价</strong></li>
+</ul>
+<blockquote><p>请注意：<strong>这个算例里的 3 单、1.2 元、3000 元都是我编的假设</strong>，唯一的真实数字是「300 辆」「1.35 元/15 分钟」「270 天」这三个。真正做决策前，必须把①到⑤全部问实。</p></blockquote>
+<span class="anchor" id="sec-5-4"></span><h3>5.4 海外锚点：这个生意在开放路权市场已经跑成了财务模型</h3>
+<p>国内校园的单车经济性拿不到数据，但海外的上市与破产案例给出了可引用的锚点——<strong>用来向校方和投资人说明「这个品类在规模化后能进正利润区间」，比空口讲前景有力得多</strong>：</p>
+<div class="tw"><table><thead><tr><th>运营商</th><th>规模</th><th>财务与单车经济</th><th>与供应链的关系</th></tr></thead><tbody><tr><td data-label="运营商"><strong>Lime</strong>（Nasdaq: LIME）</td><td data-label="规模">平均运营车队 <strong>407,707 辆</strong>（2026Q2，同比 +22%）</td><td data-label="财务与单车经济">2026Q2 营收 <strong>$304M（+24%）</strong>、Adjusted EBITDA <strong>$84M（利润率 28%）</strong>；FY2026 指引营收 <strong>$1.04–1.10B</strong>；<strong>单运营车辆日均收入 RVD $8.20</strong>；累计超 <strong>10 亿次</strong>骑行</td><td data-label="与供应链的关系">九号公开点名 Lime 为其客户</td></tr><tr><td data-label="运营商"><strong>Bird</strong></td><td data-label="规模">未找到车队规模</td><td data-label="财务与单车经济">2021 年 SPAC 上市估值 <strong>$2.5B</strong>；<strong>2023-12 申请破产保护并从纽交所退市</strong>，累计亏损约 <strong>$883M</strong></td><td data-label="与供应链的关系">同为九号客户</td></tr><tr><td data-label="运营商"><strong>Dott / TIER-Dott</strong></td><td data-label="规模">2025 年底约 <strong>20 万辆</strong>，覆盖 <strong>400+ 城市</strong>、20 个市场；2026 年初启动 <strong>45,000 辆</strong>车队刷新</td><td data-label="财务与单车经济">累计超 <strong>5 亿次</strong>骑行、<strong>3000 万</strong>用户、<strong>1,224 名</strong>员工</td><td data-label="与供应链的关系">九号客户；2024 巴黎奥运合作供应 1.5 万台 E-bike</td></tr><tr><td data-label="运营商"><strong>Voi</strong></td><td data-label="规模">未找到</td><td data-label="财务与单车经济">有报道称 Uber 拟以 <strong>$1.2B</strong> 收购（本轮未二次核实）</td><td data-label="与供应链的关系">九号客户</td></tr></tbody></table></div>
+<p>来源：https://investors.li.me/news-releases/news-release-details/lime-announces-second-quarter-2026-financial-results ；https://www.investing.com/news/company-news/lime-q2-2026-slides-24-revenue-growth-amid-margin-pressure-93CH-4836209 ；https://ideaproof.io/failure/bird-scooters ；https://micromobility.io/news/dott-at-500m-rides-with-45k-new-vehicles-and-net-zero-by-2050 ；https://www.sohu.com/a/1077333023_122336497</p>
+<p><strong>三个可用于谈判的结论：</strong></p>
+<ol>
+<li><strong>单车经济是可量化的</strong>：Lime 的 RVD $8.20/车/天（约 60 元人民币）是目前唯一公开可引用的单车收入锚点。但要注意口径差异——<strong>海外是开放路权 + 长距离 + 高单价，国内校园是封闭场景 + 短途 + 校方限价</strong>，不能直接套用。</li>
+<li><strong>反面的教训同样真实</strong>：Bird 从 25 亿美元估值走到破产，说明这个生意的死因<strong>不是需求，而是重资产 + 高运维 + 监管变化</strong>。国内校园模式「校方零出资 + 运营方全额投资」把资产压力压在运营方身上——<strong>这正是你不该轻易做重资产那一层的理由</strong>。</li>
+<li><strong>供给侧在中国，地面运营在本地</strong>：Lime、Bird、Dott、Voi、Whoosh、Yandex、Urent、Jet、Gbike 全是九号的客户。<strong>车辆话语权在中国厂商手里，而校园准入和线下运维在你手里——这就是你的谈判位置。</strong></li>
+</ol>
+<hr>
+<span class="anchor" id="sec-6"></span><h2 class="sec" id="s7"><span class="no">7</span>6. 合规与风险</h2>
+<span class="anchor" id="sec-6-1"></span><h3>6.1 路权：明确没有，这是硬约束</h3>
+<ul>
+<li><strong>《中华人民共和国道路交通安全法实施条例》第七十四条</strong>：行人不得在道路上使用滑板、旱冰鞋等滑行工具。电动滑板车属于该条禁止范围，<strong>上道路行驶违法</strong>。</li>
+<li>来源：法行宝法律依据页 https://ailegal.baidu.com/legalarticle/qadetail?id=0f39b1a82f9129241203 ；https://ailegal.baidu.com/legalarticle/qadetail?id=8ef604cde0f030250603</li>
+<li>北京等地已进一步以地方立法强化，例如新修订《北京市非机动车管理条例》对滑行工具上路作出禁止性规定（同类滑行工具的监管取向一致）。</li>
+<li>行业自己的判断（方案商深圳欧米智能公开表述）：「在国内基本上共享滑板车是不允许大规模上路的，所以想要实现量产进行投放市场，这无疑是不现实的。」</li>
+</ul>
+<p><strong>这意味着：滑板车项目只有一条路——只在校内跑，用电子围栏锁死边界，绝不允许车辆骑出校园。</strong> 国科大案例里明确设置了「<strong>限行区域</strong>」并指定停车点，就是这个逻辑的落地做法。</p>
+<span class="anchor" id="sec-6-2"></span><h3>6.2 校方：有完全管理权，且已有禁令先例</h3>
+<ul>
+<li><strong>枣庄学院</strong>（山东）2026-01-14 通知：自 <strong>2026 年 3 月 1 日</strong>起，<strong>禁止学生在校园内使用电动（助力）自行车、电动滑板车、独轮车、旱冰鞋等骑行工具</strong>；要求把相关要求写进<strong>新生录取通知书</strong>，提醒新生不要购买携带。</li>
+<li>来源：https://bwc.uzz.edu.cn/info/1006/2335.htm</li>
+<li>河北本地同样在收紧：<strong>河北大学</strong>发布《校园电动自行车管理暂行办法》与校园非机动车管理规定，对电动自行车、电动摩托车、电动三轮车统一管理；华北电力大学（保定）2025-08 明确「严管严控校外电动自行车进入校园，落实准入审批管理机制」。</li>
+<li>来源：https://www.hbu.cn/bwcnew/info/1043/2000.htm ；https://www.hbu.cn/bwcnew/info/1107/2036.htm ；https://baoweichu.ncepu.edu.cn/docs/2025-09/d336df8bc5bc408cb0c1db5b961e7f62.pdf</li>
+</ul>
+<p><strong>关键判断：校规风险是这个项目最大的风险，比路权风险大。</strong> 路权问题只在车辆出校时触发（可控），校规问题则是<strong>校方随时可以终止项目</strong>（不可控）。而滑板车在校园里是<strong>双重身份</strong>：既是「学校引进的便民服务」，也是「学校明令禁止的私人交通工具」。同一所学校完全可能今天禁止学生自带滑板车、明天引进共享滑板车——这在逻辑上说得通（管住私人车辆、由学校控盘），但<strong>也意味着政策随时可能反转</strong>。</p>
+<span class="anchor" id="sec-6-3"></span><h3>6.3 消防与补能</h3>
+<ul>
+<li>多所高校禁止楼内停放电动车/充电，持续整治「飞线充电」。</li>
+<li>滑板车虽然是低压小电池，但<strong>大批量电池集中充电仍是消防敏感点</strong>。</li>
+<li>合规做法（已有先例）：<strong>充电仓建在校园外，每日把电池运入校内更换</strong>——校园共享电单车运营商骑宜骑即采用此模式；河北工程大学的共享电动车项目也明确「<strong>校外集中充电</strong>」。</li>
+<li>来源：https://www.36kr.com/p/1721510576129 ；https://www.163.com/dy/article/I2OMUEFU05562260.html</li>
+</ul>
+<span class="anchor" id="sec-6-4"></span><h3>6.4 安全责任与支付合规</h3>
+<ul>
+<li><strong>安全责任</strong>：滑板车操控门槛高于自行车，是校园骑行事故的高发工具。国科大在宣传里已明确提示「请勿双人骑行、请勿单手骑行、建议佩戴头盔」——<strong>这些提示必须写进你的运营方案，并且要有强制的用户告知与保险</strong>。</li>
+<li><strong>支付合规</strong>：校方在同类项目招标里已经明确要求「<strong>禁用刷脸支付、不强制绑卡</strong>」（新疆交通职业技术大学 2026 年校园便民服务项目）。扫板车应当支持微信/支付宝直接扫码解锁，不需下载 App、不强制绑卡。</li>
+<li>来源：https://www.gxzztoubiao.cn/fwzb/85937.html</li>
+<li><strong>押金</strong>：当前监管与舆情环境下，押金模式风险高（共享电单车企业曾收 199 元押金）。优先无押金 + 免密代扣。</li>
+</ul>
+<span class="anchor" id="sec-6-5"></span><h3>6.5 资金与分账合规：分润模式能不能落地的隐形门槛</h3>
+<p><strong>这一节看着技术性，但它直接决定第 7 章设计的分润模型能不能合法落地。</strong></p>
+<ul>
+<li><strong>「二清」是红线。</strong> 平台先向学生收款、再向学校与渠道方二次打款，属于<strong>二次清算</strong>，监管明令禁止。资金必须由<strong>持牌支付机构或银行直接清分</strong>，走备付金账户 / 监管专户，平台不碰资金池。</li>
+<li><strong>行业里已经在用的分账结构</strong>（支付分账服务商对景区租赁行业的口径，<strong>非校方公告</strong>）：<strong>设备方 60% + 场地方 25% + 推广方 5% + 平台 10%</strong>。这个结构可以作为你与校方谈分成比例的参照系。</li>
+<li><strong>技术能力上限</strong>：合规分账支持 <strong>0%–100%</strong> 任意比例、接收方数量不限、可分至对公户或个人银行卡，可突破微信/支付宝原生 30% 的分成上限；<strong>押金与租金可分离管理</strong>（押金进专属监管账户冻结、到期原路退还）。</li>
+<li><strong>对你的直接含义</strong>：如果你要做「学校 10%–20% + 你 5%–12% + 运营方剩余」这种多层结构，<strong>必须从第一天起就按持牌机构直连清分来设计收款链路</strong>，否则这套分润在合规上根本不成立，平台方也不会同意签。</li>
+<li>来源：https://www.sohu.com/a/1070905382_122861344</li>
+</ul>
+<blockquote><p>与之配套的另一条硬约束见 7.4：校方在同类校园服务招标里已明确要求「<strong>禁用刷脸支付、不强制绑卡</strong>」，资金链路设计要同时满足这两条。</p></blockquote>
+<span class="anchor" id="sec-6-6"></span><h3>6.6 风险清单（按严重程度）</h3>
+<div class="tw"><table><thead><tr><th>风险</th><th>表现</th><th>缓解</th></tr></thead><tbody><tr><td data-label="风险"><strong>① 校规反转</strong></td><td data-label="表现">校方随时可叫停。枣庄学院已明文禁止学生使用电动滑板车；引进与禁止在同一所学校可能并存但会随领导班子变化而变</td><td data-label="缓解">合同写补偿条款；优先争取 3-5 年合同（温州理工已做到 5 年）；把「校方单方终止时的设备处置」写清楚</td></tr><tr><td data-label="风险"><strong>② 路权</strong></td><td data-label="表现">车辆骑出校园即违法</td><td data-label="缓解">电子围栏 + 限行区域 + 出校自动断电（技术手段要写进方案）</td></tr><tr><td data-label="风险"><strong>③ 事故责任</strong></td><td data-label="表现">骑行事故的赔偿与舆情</td><td data-label="缓解">强制骑行告知、限速设定、购买公众责任险与人身意外险、保留骑行数据</td></tr><tr><td data-label="风险"><strong>④ 消防</strong></td><td data-label="表现">电池集中充电</td><td data-label="缓解">校外仓充电 + 电池转运，或与已有换电体系合作</td></tr><tr><td data-label="风险"><strong>⑤ 现金流与规模</strong></td><td data-label="表现">单校 200-300 辆，年流水 20-50 万量级，盘子不大；价格被限价锁死</td><td data-label="缓解">必须靠<strong>多校复制</strong>摊薄管理与运维成本，单校做不出规模效益</td></tr><tr><td data-label="风险"><strong>⑥ 竞争窗口收窄</strong></td><td data-label="表现">天猫校园已进入河北高校并做整体运营；哈啰已在用招标方式拿滑板车项目；九号在向 250+ 运营商供车</td><td data-label="缓解">尽快落地第一所样板校，用案例换后续学校</td></tr><tr><td data-label="风险"><strong>⑦ 成本口径不明</strong></td><td data-label="表现">B 端车队价未找到公开数据，测算可能建在错误单价上</td><td data-label="缓解">先向九号商用出行事业部/泰比特询价，再谈分成</td></tr><tr><td data-label="风险"><strong>⑧ 收益被高估</strong></td><td data-label="表现">校园只有 9-10 个月有效运营期；月卡会摊薄单次收入</td><td data-label="缓解">测算按 270 天、含月卡摊薄系数；分润模型做学期/假期分段结算</td></tr></tbody></table></div>
+<hr>
+<span class="anchor" id="sec-7"></span><h2 class="sec" id="s8"><span class="no">8</span>7. 分润模式</h2>
+<span class="anchor" id="sec-7-1"></span><h3>7.1 现有的四种模式（从真实招标与行业惯例中归纳）</h3>
+<div class="tw"><table><thead><tr><th>模式</th><th>结构</th><th>校方收益</th><th>谁出钱</th><th>你已经能看到的实例</th></tr></thead><tbody><tr><td data-label="模式"><strong>① 招标型（最主流）</strong></td><td data-label="结构">校方定最高收费限价 → 运营商竞争性磋商/招标 → 中标方自行投资投放并运营</td><td data-label="校方收益">流水分成或固定场地费</td><td data-label="谁出钱"><strong>运营商全额出资</strong></td><td data-label="你已经能看到的实例">德州学院（SDJA-2025-118，哈啰中标）、温州理工学院（300 辆、5 年期）</td></tr><tr><td data-label="模式"><strong>② BOO / BOT 型</strong></td><td data-label="结构">建设—拥有—运营，校方零投入，期满资产处置或移交</td><td data-label="校方收益">流水分成</td><td data-label="谁出钱">运营商全额出资</td><td data-label="你已经能看到的实例">河北工程大学共享出行项目（企业自行投资购车、期满撤出）</td></tr><tr><td data-label="模式"><strong>③ 加盟/合伙人型</strong></td><td data-label="结构">品牌方输出车辆、平台与运营体系，本地合作方出点位资源与落地</td><td data-label="校方收益">不直接相关</td><td data-label="谁出钱">视协议</td><td data-label="你已经能看到的实例">九号轻骑公开招募加盟；天猫校园自建团队</td></tr><tr><td data-label="模式"><strong>④ 联营型</strong></td><td data-label="结构">渠道方只出校方资源，品牌方全额出资，双方长期分流水</td><td data-label="校方收益">按约定分成</td><td data-label="谁出钱">品牌方全额出资</td><td data-label="你已经能看到的实例">山东洗之郎公开的「校园 BOT 项目联营」即为该结构</td></tr></tbody></table></div>
+<p><strong>给你的直接结论：对你最友好的是①+④的组合——用招标程序拿入场资格，用联营结构解决资金问题。</strong></p>
+<span class="anchor" id="sec-7-2"></span><h3>7.2 你在这个品类里的三种身份选择</h3>
+<div class="tw"><table><thead><tr><th>身份</th><th>你出什么</th><th>你赚什么</th><th>风险</th><th>适合</th></tr></thead><tbody><tr><td data-label="身份"><strong>A. 资源居间方</strong></td><td data-label="你出什么">只出校方关系，撮合运营方与学校</td><td data-label="你赚什么">一次性资源费 + 首年流水分成 3-8%</td><td data-label="风险">最低，但收益也最低；<strong>容易被绕过</strong></td><td data-label="适合">初次试水、想先建立案例</td></tr><tr><td data-label="身份"><strong>B. 区域联营方</strong></td><td data-label="你出什么">校方资源 + 本地运维协调 + 关系维护</td><td data-label="你赚什么">项目公司股权 20%-40% + 运维服务费</td><td data-label="风险">中；需承担运营指标</td><td data-label="适合">有 3 所以上高校资源、想做长期收益</td></tr><tr><td data-label="身份"><strong>C. 自建运营方</strong></td><td data-label="你出什么">校方资源 + 车辆资金 + 运维团队</td><td data-label="你赚什么">全部运营利润（减去校方分成）</td><td data-label="风险">最高；重资产、要扛 SLA</td><td data-label="适合">有资金、有本地运维能力、认这个赛道</td></tr></tbody></table></div>
+<p><strong>建议路径：A → B → C。</strong> 先用①做 1 所学校拿到案例，再用案例和资金实力去谈②的联营，最后如果验证跑通了再考虑自建。</p>
+<span class="anchor" id="sec-7-3"></span><h3>7.3 新设计的四套分润模型（针对滑板车调整）</h3>
+<h4>模型 1｜资源方保底 + 首年流水分成（对应身份 A）</h4>
+<p><strong>结构：</strong> 运营方（九号轻骑 / 天猫校园 / 哈啰 / 小潮出行）全额出资，你负责校方准入、谈判、关系维护。</p>
+<div class="tw"><table><thead><tr><th>你的收益</th><th>建议区间</th></tr></thead><tbody><tr><td data-label="你的收益">一次性校方资源费</td><td data-label="建议区间">单校 <strong>3-8 万元</strong>（按校区规模与车辆数，参考单校 200-300 辆的体量）</td></tr><tr><td data-label="你的收益">首年流水分成</td><td data-label="建议区间"><strong>5%-8%</strong></td></tr><tr><td data-label="你的收益">第 2 年起流水分成</td><td data-label="建议区间"><strong>2%-3%</strong>（逐年递减，或转为固定年度服务费）</td></tr></tbody></table></div>
+<ul>
+<li>校方侧分成：建议 <strong>10%-20%</strong> 起谈（滑板车盘子小于售货机，校方分成比例通常不会像自动售货机那样到 30%）。</li>
+<li><strong>必须写进合同</strong>：运营方不得绕过你直接与校方签约；你有一级流水数据查看权；保底金额。</li>
+<li><strong>适用：你手上有 1-2 所学校，想低成本验证。</strong></li>
+</ul>
+<h4>模型 2｜区域联营 SPV（对应身份 B，最推荐）</h4>
+<p><strong>结构：</strong> 你以「校方资源 + 本地运维协调」作价入股，与运营方成立项目公司，共同承接某市/某省高校的滑板车项目。</p>
+<div class="tw"><table><thead><tr><th>要素</th><th>建议</th></tr></thead><tbody><tr><td data-label="要素">股权</td><td data-label="建议">你 <strong>20%-40%</strong>（视你带来的校方数量、独家性与是否独家排他）</td></tr><tr><td data-label="要素">出资</td><td data-label="建议">运营方出车辆、中控、平台；你出资源，可少量现金跟投换取更高话语权</td></tr><tr><td data-label="要素">你的收入</td><td data-label="建议">①股权分红 ②本地运维服务费（按车辆数或校区计） ③新校开发奖励</td></tr><tr><td data-label="要素">校方</td><td data-label="建议">按流水分成，BOO/BOT，合同期争取 3-5 年</td></tr><tr><td data-label="要素">关键保护条款</td><td data-label="建议">「若运营方绕过你直接签约你带来的学校，按该校年流水的 X 倍赔偿」</td></tr></tbody></table></div>
+<ul>
+<li><strong>为什么推荐：</strong> 滑板车是<strong>重资产 + 可迁移资产</strong>（车辆在 A 校合同结束后可以搬到 B 校继续用，不像某些项目期满必须报废），适合长期持有。同时运维是<strong>本地化</strong>的（换电、调度、维修都需要本地人力），你在本地运维上有天然优势。</li>
+<li><strong>适用：当你手里有 3 所以上高校资源时。</strong></li>
+</ul>
+<h4>模型 3｜自建运营（对应身份 C）</h4>
+<p><strong>结构：</strong> 你（或你的公司）直接作为投标主体参与校方招标：买整车 + 中控 + 平台，自建换电与调度团队。</p>
+<ul>
+<li>技术侧：找<strong>深圳泰比特</strong>这类中控方案商采购「共享滑板车智能中控 + 管理平台 + 运维小程序 + 用户小程序」，或直接向<strong>九号商用出行事业部</strong>谈车队方案（可谈 TCO 框架下的采购与技术支持）。</li>
+<li>成本结构（需向供应商询实）：车辆 + 电池 + 中控 + 平台年费 + 换电人力 + 调度 + 维修 + 保险 + 校方分成。</li>
+<li><strong>关键门槛不是技术，是三个：</strong> ①车辆采购资金 ②能承诺「95% 在线率 + 2 小时换电 + 24 小时清运」的本地团队 ③校方关系。</li>
+<li><strong>适用：有资金、有本地运维团队、且已确认至少 2-3 所学校的确定性需求时。</strong></li>
+</ul>
+<h4>模型 4｜「一校一包」组合（收益上限最高）</h4>
+<p><strong>结构：</strong> 不要只投标滑板车。把校园微出行打包成整体方案投标：</p>
+<p>``<code> 校园微出行服务包 ├── 共享电动滑板车（主标的，校方最想要的"新东西"） ├── 共享自行车（覆盖滑板车不适合的人群与场景） ├── 共享电动车（覆盖长距离，与滑板车互补） └── 换电柜 / 充电桩（解决补能与消防合规，也是独立收入点） </code>``</p>
+<ul>
+<li><strong>为什么可行：</strong> 德州学院的做法就是<strong>一个项目分两个包</strong>（A1 共享单车 / A2 共享电动滑板车）同时招；国科大是<strong>共享单车 + 共享滑板车叠加投放</strong>；河北工程大学是<strong>共享单车 + 共享电动车 + 观光电瓶车</strong>一起招。</li>
+<li>来源：https://zcc.dzu.edu.cn/info/1007/4513.htm ；https://www.thepaper.cn/newsDetail_forward_24733399 ；https://www.163.com/dy/article/I2OMUEFU05562260.html</li>
+<li>分润结构（三层）：</li>
+</ul>
+<div class="tw"><table><thead><tr><th>层级</th><th>拿什么</th><th>建议区间</th></tr></thead><tbody><tr><td data-label="层级">校方</td><td data-label="拿什么">总流水分成（或固定场地费）</td><td data-label="建议区间">10%-20%</td></tr><tr><td data-label="层级"><strong>你（方案整合方）</strong></td><td data-label="拿什么">总流水分成</td><td data-label="建议区间"><strong>8%-12%</strong></td></tr><tr><td data-label="层级">各品类运营方</td><td data-label="拿什么">剩余流水，自负设备与运维</td><td data-label="建议区间">68%-82%</td></tr></tbody></table></div>
+<ul>
+<li><strong>必须写死的条款：</strong> 你与各品类运营方签<strong>分包协议</strong>（不让校方直接与运营方签）；约定<strong>独家整合权</strong>（合同期内校方新增同类共享品类优先由你整合）；<strong>流水数据由你或第三方平台统一归集</strong>。</li>
+</ul>
+<span class="anchor" id="sec-7-4"></span><h3>7.4 结算与保底：滑板车特有的三个坑</h3>
+<ol>
+<li><strong>寒暑假必须分段结算。</strong> 校园只有 9-10 个月有效运营期，寒暑假流水近乎归零。分润协议<strong>必须按学期/假期分段计费</strong>，或约定「假期期间按月保底结算」。</li>
+<li><strong>必须有保底。</strong> 滑板车单校年流水只有 20-50 万量级，抗风险能力弱。纯分成协议下，一次政策变化或一次安全事故就可能让你颗粒无收。</li>
+<li><strong>分成必须走持牌机构清分，不能走「平台先收再转」。</strong> 你的分润结构一旦涉及校方、你、多品类运营方同时分账，就落入二次清算的红线。收款链路要在签合同前就按持牌机构直连清分来设计（见 7.5）——<strong>这一条谈的时候不起眼，落地时最常见卡点。</strong></li>
+</ol>
+<hr>
+<span class="anchor" id="sec-8"></span><h2 class="sec" id="s9"><span class="no">9</span>8. 落地路线图、合同条款与风险清单</h2>
+<span class="anchor" id="sec-8-1"></span><h3>8.1 河北本地可落地的现成线索</h3>
+<div class="tw"><table><thead><tr><th>线索</th><th>内容</th><th>价值</th></tr></thead><tbody><tr><td data-label="线索"><strong>河北工程技术学院</strong>（石家庄）</td><td data-label="内容">2026-03 由<strong>天猫校园</strong>整体运营，首批 300 辆共享电动滑板车</td><td data-label="价值"><strong>最近的对标样本</strong>。同城、同期、同品类，直接去了解它的运营现状与校方满意度，就是你最好的方案背书</td></tr><tr><td data-label="线索"><strong>保定理工学院</strong>（保定）</td><td data-label="内容">2021-09 校内出现付费共享滑板车，学生争相使用</td><td data-label="价值">证明河北学生的真实需求已存在 5 年</td></tr><tr><td data-label="线索">河北工程大学（邯郸）</td><td data-label="内容">共享单车 2000 辆 + 共享电动车 1000 辆 + 观光电瓶车；2023、2025 两次招标</td><td data-label="价值">校方零投入 + 5 年期的招标范本</td></tr><tr><td data-label="线索">燕山大学（秦皇岛）</td><td data-label="内容">2021-12 共享电单车投放运营服务采购</td><td data-label="价值">河北先例</td></tr><tr><td data-label="线索">河北大学（保定）</td><td data-label="内容">五四路校区直饮水/自助洗衣/智能吹风服务项目招标；已发布校园电动车与非机动车管理办法</td><td data-label="价值">说明该校在做后勤服务打包采购，且已在收紧车辆管理——<strong>「禁止私人车 + 引进共享车」的窗口就在这里</strong></td></tr><tr><td data-label="线索">河北农业大学渤海学院（沧州）</td><td data-label="内容">学生公寓空调安装运营服务项目（2022）</td><td data-label="价值">后勤 BOT 采购习惯已建立</td></tr><tr><td data-label="线索"><strong>河北省高校后勤协会 / 河北省学校后勤服务中心</strong></td><td data-label="内容">行业协会与服务中心</td><td data-label="价值"><strong>批量触达的正确路径。</strong> 高校共享项目的决策链在后勤/资产管理部门，协会是效率最高的入口</td></tr><tr><td data-label="线索">河北软创科技</td><td data-label="内容">本省校园智慧后勤 BOT 运营商（洗衣/直饮水/水控/售货柜），口径覆盖 100+ 院校</td><td data-label="价值">若后续要做「一校一包」（模型 4），这是本省可对接的整合伙伴</td></tr></tbody></table></div>
+<p>来源：https://student.hebuet.edu.cn/info/1026/44363.htm ；https://www.sohu.com/a/491773366_121182637 ；https://www.163.com/dy/article/I2OMUEFU05562260.html ；http://zcglc.ysu.edu.cn/info/1027/5598.htm ；https://www.hbu.cn/bwcnew/info/1107/2036.htm ；https://www.zidonghua.com.cn/columnsponsor/zshl/178965.html</p>
+<p><strong>渠道策略建议：不要做点状突破，走「省高校后勤协会 + 1 所样板校」。</strong> 高校后勤系统内部横向交流频繁，「隔壁学校已经落地了」的说服力远大于方案书。而河北工程技术学院已经替你完成了「省内首例」的教育工作——你要做的是<strong>复制它，而不是教育市场</strong>。</p>
+<span class="anchor" id="sec-8-2"></span><h3>8.2 90 天行动清单</h3>
+<p><strong>第 1-2 周：问价（这是唯一的阻塞项）</strong></p>
+<ul>
+<li>向<strong>九号商用出行事业部</strong>（B2B）询价：车队采购价、共享车型、电池与换电方案、中控与平台、TCO 框架下的合作方式。</li>
+<li>向<strong>深圳泰比特</strong>询价：共享滑板车中控（WD-260 类）、管理平台、SaaS 年费。</li>
+<li>向<strong>天猫校园 / 九号轻骑 / 哈啰 / 小潮出行</strong>询合作：是否接受「你只出校方资源」，分成结构，能否承诺「95% 在线率 + 2 小时换电 + 24 小时清运」。</li>
+<li><strong>没有这一步，后面所有测算都是空的。</strong></li>
+</ul>
+<p><strong>第 3-4 周：盘点资源与选样板校</strong></p>
+<ul>
+<li>盘点你手里所有河北高校：师生规模、校区数量与面积、后勤/资产口对接人层级、是否已有共享单车/电动车项目、是否已禁止私人电动车。</li>
+<li><strong>优先选「已经禁止学生私人电动车 + 校区面积大且分散」的学校</strong>——这类学校最需要滑板车，也最容易接受「学校控盘、引进运营方」的思路。</li>
+</ul>
+<p><strong>第 5-10 周：把样板校跑通</strong></p>
+<ul>
+<li>用模型 1（资源方保底 + 首年分成）或与运营方做联营，推动校方按<strong>竞争性磋商</strong>流程立项。</li>
+<li>方案里必须包含：电子围栏与限行区域、指定停车点、国标符合性（GB/T 42825-2023）、运营 SLA 四项指标、骑行安全告知、校外换电方案、无人收押金。</li>
+<li>报价参考：单次 <strong>1.35-1.5 元/15 分钟</strong>、日封顶 <strong>8 元</strong>、月卡 <strong>17.9 元</strong>、季卡 <strong>44.9 元</strong>（均在德州学院限价区间内）。</li>
+</ul>
+<p><strong>第 11-12 周：复制与升级</strong></p>
+<ul>
+<li>用样板校案例撬动同城/同省第二、第三所学校。</li>
+<li>在样板校叠加第二个品类（共享单车或换电柜），验证模型 4。</li>
+<li>有 3 所学校后再谈模型 2（区域联营 SPV）。</li>
+</ul>
+<span class="anchor" id="sec-8-3"></span><h3>8.3 合同必须写死的条款</h3>
+<p><strong>校方侧会要求的（提前评估能不能扛）：</strong></p>
+<div class="tw"><table><thead><tr><th>条款</th><th>具体要求</th><th>来源</th></tr></thead><tbody><tr><td data-label="条款">最高收费限价</td><td data-label="具体要求">单次 1.35 元/15 分钟、日封顶 8 元、月卡 17.9 元、季卡 44.9 元（德州学院实际限价）</td><td data-label="来源">德州学院</td></tr><tr><td data-label="条款">运营 SLA</td><td data-label="具体要求">在线率 ≥95%、低电量 2 小时换电、故障 24 小时修复或清运</td><td data-label="来源">河北工程技术学院</td></tr><tr><td data-label="条款">停放规范</td><td data-label="具体要求">电子围栏、100% 规范停放、车头同向、入框整齐</td><td data-label="来源">河北工程技术学院</td></tr><tr><td data-label="条款">支付合规</td><td data-label="具体要求">禁用刷脸支付、不强制绑卡</td><td data-label="来源">新疆同类项目招标口径</td></tr><tr><td data-label="条款">服务期限</td><td data-label="具体要求">3-5 年（温州理工学院到 2030-10）</td><td data-label="来源">温州理工学院</td></tr><tr><td data-label="条款">不接受联合体</td><td data-label="具体要求">德州学院、温州理工学院均明确不接受联合体报价</td><td data-label="来源">两校公告</td></tr></tbody></table></div>
+<p><strong>你自己这一侧必须写进去的：</strong></p>
+<div class="tw"><table><thead><tr><th>条款</th><th>要写什么</th><th>为什么</th></tr></thead><tbody><tr><td data-label="条款"><strong>保底条款</strong></td><td data-label="要写什么">假期期间按月保底结算，或全年保底总额</td><td data-label="为什么">寒暑假流水近乎归零，纯分成的渠道方会颗粒无收</td></tr><tr><td data-label="条款"><strong>流水数据归集权</strong></td><td data-label="要写什么">你或第三方平台统一归集流水，你有一级查看权</td><td data-label="为什么">避免运营方少报流水侵蚀分成</td></tr><tr><td data-label="条款"><strong>排他与反绕过</strong></td><td data-label="要写什么">运营方不得绕过你直接签约你带来的学校；校方在合同期内新增同类品类优先由你整合</td><td data-label="为什么">渠道方最容易被架空的环节</td></tr><tr><td data-label="条款"><strong>校方终止时的补偿</strong></td><td data-label="要写什么">约定校方单方终止时的设备处置方式与残值补偿/迁移期</td><td data-label="为什么">校规反转是本项目最大的风险，参考河北工程大学「期满全部撤出」的写法，必须争取补偿</td></tr><tr><td data-label="条款"><strong>运营 SLA 与考核</strong></td><td data-label="要写什么">把校方考核指标传递到运营方，约定不达标的赔付与整改期</td><td data-label="为什么">校方扣你的分，你要能扣运营方的钱</td></tr><tr><td data-label="条款"><strong>事故责任划分</strong></td><td data-label="要写什么">明确车辆质量责任、运营管理责任、用户骑行责任的边界</td><td data-label="为什么">滑板车事故是最大的舆情与法律风险</td></tr><tr><td data-label="条款"><strong>定价调整机制</strong></td><td data-label="要写什么">约定限价调整的触发条件与周期</td><td data-label="为什么">5 年合同期内不让调价风险很高</td></tr><tr><td data-label="条款"><strong>结算周期</strong></td><td data-label="要写什么">明确月度对账与付款时间</td><td data-label="为什么">高校付款流程慢，现金流最容易死在这里</td></tr></tbody></table></div>
+<span class="anchor" id="sec-9"></span><h2 class="sec" id="s10"><span class="no">10</span>9. 横向可做的同类项目（同一套「零投入 + 分润」打法可直接复制）</h2>
+<p>滑板车只是切口。<strong>你手里校方资源真正的价值，是「一次谈下学校的后勤准入，然后复制到多个品类」。</strong> 这一章把同一范式下可做的项目、头部企业、已知的校方收益口径列全——所有数字附来源，查不到的写「未找到」。</p>
+<span class="anchor" id="sec-9-1"></span><h3>9.1 通用范式：BOT 已经是标准动作</h3>
+<div class="tw"><table><thead><tr><th>事实</th><th>内容</th><th>来源</th></tr></thead><tbody><tr><td data-label="事实">BOT 定义</td><td data-label="内容">Build-Operate-Transfer：<strong>企业全额投资建设运营、学校零投入、合同期满软硬件资产无偿移交校方</strong></td><td data-label="来源">https://www.sohu.com/a/652185340_121141187</td></tr><tr><td data-label="事实">高校 BOT 标准品类</td><td data-label="内容">热水（洗浴）、直饮水、洗衣机、吹风机、<strong>空调租赁</strong>；延伸品类：智能餐柜、智能门锁、校园节水改造</td><td data-label="来源">同上</td></tr><tr><td data-label="事实">三种主流合作模式</td><td data-label="内容">① <strong>合作分成</strong>（校方出场地水电、运营商全投、按约定比例分营收）② <strong>场地租赁</strong>（运营商付年租金、自负盈亏）③ <strong>BOT 全额投资</strong>（期满移交）</td><td data-label="来源">https://www.sohu.com/a/1025707048_122448438</td></tr><tr><td data-label="事实">校方已经习惯「一包多类」</td><td data-label="内容">新疆交通职业技术大学 2026 年便民服务项目<strong>一个包四类</strong>；河北大学五四路校区把「直饮水 + 自助洗衣 + 智能吹风」<strong>打包成一个项目</strong>招标</td><td data-label="来源">https://www.gxzztoubiao.cn/fwzb/85937.html ；https://www.hbu.cn/bwcnew/info/1107/2036.htm</td></tr><tr><td data-label="事实">国企已经进场</td><td data-label="内容">南方电网综能公司中标岭南师范学院；国网重庆综能公司中标重庆大学热水 BOT</td><td data-label="来源">https://www.sohu.com/a/652185340_121141187</td></tr></tbody></table></div>
+<p><strong>对你的意义：同一个学校可以「一次谈、多品类做」，你的准入资源边际价值在这里被放大 3-5 倍。</strong></p>
+<span class="anchor" id="sec-9-2"></span><h3>9.2 品类 × 头部企业 × 已知收益口径</h3>
+<div class="tw"><table><thead><tr><th>品类</th><th>头部企业（能提供产品 / 运营 / 维保）</th><th>已知的校方收益口径</th></tr></thead><tbody><tr><td data-label="品类"><strong>共享洗衣机 / 烘干 / 洗鞋</strong></td><td data-label="头部企业（能提供产品 / 运营 / 维保）"><strong>无锡小净「U净」（美的集团孵化的商用电器科技公司）</strong>：平台+加盟商模式，自报 3 万+商家、100 万+在线设备、4500 万+用户（大学生占 90%）；<strong>海尔</strong>（海尔洗衣 + 海狸管家运营工具）；创维（校园渠道由无锡思迈尔物联科技运营）；<strong>蔚来校园 / 山东洗之郎</strong>（BOT，口径覆盖北大、山大等近百所高校）；<strong>河北软创科技</strong>（本省企业，BOT 全额投资、期满移交）</td><td data-label="已知的校方收益口径">分成比例<strong>未找到</strong>；惯例是「零租金 + 少量分成」或「按年场地租金」。设备单价 669-3100 元/台</td></tr><tr><td data-label="品类"><strong>共享吹风机</strong></td><td data-label="头部企业（能提供产品 / 运营 / 维保）">同上体系（U净、海尔、河北软创的五大场景中含吹风）</td><td data-label="已知的校方收益口径">未找到（河北大学已把吹风与洗衣、直饮水打包招标，见第 1 章）</td></tr><tr><td data-label="品类"><strong>直饮水 / 热水 BOT</strong></td><td data-label="头部企业（能提供产品 / 运营 / 维保）">空气能热泵工程方 + 校园运营商；<strong>河南翰宇新能源</strong>（翰宇校园热水，自称服务 150+ 院校）；<strong>河北软创</strong>（直饮水、洗浴水控）</td><td data-label="已知的校方收益口径">未找到分成比例；惯例如「学生按用量付费 + 学校零投入 + 期满移交」。5000 人规模学校热水 BOT 约 <strong>2-3 年回收</strong>（行业口径）</td></tr><tr><td data-label="品类"><strong>宿舍空调租赁 BOT</strong></td><td data-label="头部企业（能提供产品 / 运营 / 维保）"><strong>海尔</strong>（公开口径：共享空调进入 2000 余所学校）；上饶师范学院案例方</td><td data-label="已知的校方收益口径"><strong>420 元/台/年</strong>（2024 江苏案例，学生侧租费）</td></tr><tr><td data-label="品类"><strong>自动售货机 / 无人零售柜</strong></td><td data-label="头部企业（能提供产品 / 运营 / 维保）"><strong>友宝</strong>（3000+ 合伙人，合伙人出点位、品牌方出设备与供应链）</td><td data-label="已知的校方收益口径"><strong>10%-30% 流水分成</strong>（本次检索中<strong>唯一查到明确区间的品类</strong>），或固定场地租金；可按点位流量做阶梯分成</td></tr><tr><td data-label="品类"><strong>自助打印机 / 云打印</strong></td><td data-label="头部企业（能提供产品 / 运营 / 维保）">未找到可引用的头部名单</td><td data-label="已知的校方收益口径"><strong>120 元/台/月 × 10 个月</strong>（青海民族大学 24 台、底价 28800 元）；汕头大学按「场地管理费」报价</td></tr><tr><td data-label="品类"><strong>智能快递柜 / 校园驿站</strong></td><td data-label="头部企业（能提供产品 / 运营 / 维保）">菜鸟系（浙江驿栈中标苏州大学）；中国邮政河北分公司参与快递进校园</td><td data-label="已知的校方收益口径"><strong>40.8 万元/年</strong>（苏州大学校园快递服务中标金额）</td></tr><tr><td data-label="品类"><strong>共享充电宝</strong></td><td data-label="头部企业（能提供产品 / 运营 / 维保）">未找到可引用的校园头部名单</td><td data-label="已知的校方收益口径">未找到；校园普遍限价 <strong>1.5 元/小时、单日封顶 15 元</strong>；供应商侧可分期（首期付五成）</td></tr><tr><td data-label="品类"><strong>充电柜 / 换电柜</strong></td><td data-label="头部企业（能提供产品 / 运营 / 维保）">与滑板车/电单车配套（如泰比特的充换电电柜、充电桩）</td><td data-label="已知的校方收益口径">未找到。<strong>与滑板车项目天然搭配</strong>，同时解决消防合规与独立收入</td></tr><tr><td data-label="品类"><strong>长尾：按摩椅 / 迷你 KTV / 储物柜 / 共享雨伞</strong></td><td data-label="头部企业（能提供产品 / 运营 / 维保）">未找到可引用的校园头部名单</td><td data-label="已知的校方收益口径">均为<strong>未找到</strong>；单点收益小，适合做「一校一包」的添头</td></tr></tbody></table></div>
+<p><strong>关键合同惯例（可直接抄进你的方案）：</strong> 新疆交通职业技术大学的便民服务项目写明——供应商须在最高限价基础上<strong>整体下浮不低于 5%</strong>、禁用刷脸支付、不强制绑卡、严控商业广告、<strong>洗衣设备夜间分时停机</strong>、水电预缴、<strong>完整开放营业额数据</strong>、洗衣机须一级能效、组建<strong>驻校专职团队</strong>每日保洁消杀、<strong>故障 4 小时维修 / 24 小时上门兜底</strong>；合作期 <strong>2+1 年</strong>。来源：https://www.gxzztoubiao.cn/fwzb/85937.html</p>
+<span class="anchor" id="sec-9-3"></span><h3>9.3 把幻想打回现实：这行业真实的回报数字</h3>
+<p>校园生活服务 BOT 的宣传口径与真实运营数据差距很大，<strong>这组数字是你谈判时最该记住的</strong>（来源：https://zhuanlan.zhihu.com/p/1890528789148194122 ）：</p>
+<div class="tw"><table><thead><tr><th>指标</th><th>理论 / 宣传</th><th>实际</th></tr></thead><tbody><tr><td data-label="指标">单台洗衣机年收入</td><td data-label="理论 / 宣传">1.8 万元</td><td data-label="实际"><strong>1.2 万元</strong></td></tr><tr><td data-label="指标">回本周期</td><td data-label="理论 / 宣传">2 年</td><td data-label="实际"><strong>4 年</strong></td></tr><tr><td data-label="指标">利润率</td><td data-label="理论 / 宣传">45%</td><td data-label="实际"><strong>28%</strong></td></tr><tr><td data-label="指标">寒暑假设备使用率</td><td data-label="理论 / 宣传">75%</td><td data-label="实际"><strong>跌到 10% 以下</strong></td></tr><tr><td data-label="指标">单校案例</td><td data-label="理论 / 宣传">预期日均 60 元/台</td><td data-label="实际">北京某 985 高校：<strong>实际日均 35 元/台</strong>（50 台设备+系统共投入 85 万元）</td></tr></tbody></table></div>
+<blockquote><p><strong>校园生意的共同特征：寒暑假归零、回本周期比宣传长一倍、利润率比宣传低一半。</strong> 滑板车项目同样适用（第 6.3 节测算模板已按 270 天有效运营期处理）。</p></blockquote>
+<span class="anchor" id="sec-9-4"></span><h3>9.4 「多品类」的分润模型（第 7 章模型 4 的可执行版）</h3>
+<p><strong>结构：你作为「校园后勤服务整合方」与校方签一份框架协议，再与各品类运营方签分包协议。</strong></p>
+<div class="tw"><table><thead><tr><th>层级</th><th>拿什么</th><th>参照依据</th></tr></thead><tbody><tr><td data-label="层级">校方</td><td data-label="拿什么">总流水分成 <strong>10%-20%</strong>，或固定场地费 / 增值服务</td><td data-label="参照依据">售货机 10%-30% 是唯一有公开区间的品类；青海民族大学打印按 120 元/台/月 收底价；青岛工程职业学院「招商方无需出资」</td></tr><tr><td data-label="层级"><strong>你（整合方）</strong></td><td data-label="拿什么">总流水分成 <strong>8%-12%</strong>，或按品类收「准入服务费 + 按台/按点位年费」</td><td data-label="参照依据">本报告设计，<strong>无公开对标</strong></td></tr><tr><td data-label="层级">各品类运营方</td><td data-label="拿什么">剩余流水，自负设备、安装改造与运维</td><td data-label="参照依据">BOT 惯例：设备与施工全投、期满移交</td></tr></tbody></table></div>
+<p><strong>三条落地纪律：</strong></p>
+<ol>
+<li><strong>先拿一纸框架协议，再逐个品类打包。</strong> 新疆与河北大学的招标方式已经证明校方接受「一包多类」，这是你谈框架的现成话术。</li>
+<li><strong>每个品类单独核对「校方限价 / 底价」文件。</strong> 洗衣限价 3 元、充电宝 1.5 元/小时封顶 15 元、打印 120 元/台/月——这些上限直接决定分成基数。</li>
+<li><strong>优先挑校方最痛的两个品类先做</strong>：宿舍洗衣（投诉最多）+ 充电/换电（消防压力最大）。用这两件把关系和流水数据跑起来，再扩品类，最后把滑板车作为「新品类」引入——<strong>这个顺序比一上来就推滑板车更容易过会。</strong></li>
+</ol>
+<span class="anchor" id="sec-9-5"></span><h3>9.5 河北本省可直接对接的运营商</h3>
+<div class="tw"><table><thead><tr><th>对象</th><th>能力</th><th>对你的价值</th></tr></thead><tbody><tr><td data-label="对象"><strong>河北软创科技</strong></td><td data-label="能力">校园智慧后勤物联网 BOT：直饮水、洗浴水控、共享洗护设备、智能售货柜、亲情视频电话；口径 100+ 院校、22 项软著、ISO 五体系</td><td data-label="对你的价值"><strong>本省 BOT 运营商，是「一校一包」最现实的整合伙伴</strong></td></tr><tr><td data-label="对象">河北高校后勤协会 / 河北省学校后勤服务中心</td><td data-label="能力">行业协会</td><td data-label="对你的价值">批量触达后勤决策链的最高效入口（见 9.1）</td></tr><tr><td data-label="对象">中国邮政河北分公司</td><td data-label="能力">校园驿站 / 快递进校园体系</td><td data-label="对你的价值">快递柜品类的对接方</td></tr><tr><td data-label="对象">海尔 / 美的（U净）省级分公司</td><td data-label="能力">全品类校园共享家电与平台</td><td data-label="对你的价值">通过省级分公司可直接取得整套方案与加盟政策</td></tr></tbody></table></div>
+<hr>
+<span class="anchor" id="sec-10"></span><h2 class="sec" id="s11"><span class="no">11</span>10. 数据缺口与待核验清单</h2>
+<p><strong>本报告明确没有查到的（不要当事实引用）：</strong></p>
+<ul>
+<li><strong>共享电动滑板车的 B 端车队采购价</strong>——最关键缺口，公开渠道没有可引用报价</li>
+<li>单台日均骑行次数、单台年收入、回本周期的可靠实测数据</li>
+<li>车辆丢失率、损坏率的行业数据</li>
+<li>校方在滑板车项目中的<strong>具体分成百分比</strong>（德州学院、温州理工学院公告均未披露分成条款）</li>
+<li>九号轻骑加盟的具体加盟费与分成条款</li>
+<li>天猫校园在校园微出行上的合作政策</li>
+<li>换电 vs 集中充电的人力成本对比数据</li>
+<li>共享滑板车的管理平台 / SaaS 年费价格，以及<strong>中控硬件单价与按台年费</strong>（泰比特、欧米均只提供「免费获取报价」入口）</li>
+<li><strong>加盟招商页上的回报数据</strong>：「单台日均 6-8 单、客单价 5-8 元、县城 6 个月回本 / 景区 2 个月回本」等，属于<strong>招商宣传口径，不可作为测算依据</strong>（来源 http://www.xqchuxing.cn/cooperate.html ）</li>
+</ul>
+<p><strong>标注为「二手引用 / 待核实」的：</strong></p>
+<ul>
+<li>松果出行被第三方行业报告列为共享滑板车运营商（来源为文库报告，未见官方口径）</li>
+<li>「2025 年中国电动共享滑板车市场规模」类数据（来源为文库/行业报告，未见权威统计）</li>
+<li>海外共享滑板车的<strong>整车制造成本</strong>（仅有第三方估算 <strong>$250–$500/台</strong>，非官方；Lime 的营收、EBITDA、车队规模与 RVD 已可取到，见 6.4，但<strong>没有可引用的单台回本周期</strong>）</li>
+</ul>
+<p><strong>本轮新增的一手数据（此前版本未覆盖，可直接引用）：</strong></p>
+<ul>
+<li><strong>共享车型参数</strong>：九号 5 款 B 端共享车型、金浪天宇 C5、坦途「苏慧行」的官方参数（见 5.3）</li>
+<li><strong>换电设计的官方依据</strong>：Max Plus / Lite L60E / Apex D110L 三款车型的换电与可拆电池原文（见 4.1、5.3）</li>
+<li><strong>中控方案的技术参数</strong>：泰比特 WD-260、欧米校园中控的完整规格（见 4.2）</li>
+<li><strong>海外单车经济锚点</strong>：Lime 2026Q2 财务与 <strong>RVD $8.20</strong>、Bird 破产、Dott 20 万辆车队（见 6.4）</li>
+<li><strong>分账合规规则</strong>：二清禁区与持牌清分要求、行业分账比例参照（见 7.5）</li>
+<li><strong>校方真实诉求的证据</strong>：青岛工程职业学院「招商方无需出资」原文（见 3.6 第 9 行、8.1）</li>
+</ul>
+<p><strong>建议的核验动作：</strong></p>
+<ol>
+<li><strong>直接向九号商用出行事业部索取车队方案与报价</strong>——这是最有效的一步，公开渠道不会有。</li>
+<li>在<strong>中国政府采购网</strong>（ccgp.gov.cn）、<strong>河北省公共资源交易平台</strong>（https://szj.hebei.gov.cn/hbggfwpt/ ）、以及各高校资产/后勤处官网，用「共享电动滑板车」「电动滑板车 引入服务」「共享单车 电动滑板车」检索招标原文。</li>
+<li>检索时可用的已知项目坐标：<strong>德州学院 SDJA-2025-118</strong>、<strong>温州理工学院 WZSLZB-YW-20250905</strong>、<strong>青岛工程职业学院 SDWXZB202307152</strong>、<strong>山西科技学院 SXGXD2025-6016F / ZHJ-FW-2024146</strong>、<strong>山东交通学院 SDHC2026-LX26522</strong>。</li>
+</ol>
+<hr>
+<span class="anchor" id="sec-11"></span><h2 class="sec" id="s12"><span class="no">12</span>11. 一页结论</h2>
+<div class="tw"><table><thead><tr><th>问题</th><th>结论</th></tr></thead><tbody><tr><td data-label="问题">共享电动滑板车这个方向能做吗？</td><td data-label="结论"><strong>能做。</strong> 有真实校园案例、有专门的企业与运营品牌、有国家标准、有高校招标先例</td></tr><tr><td data-label="问题">河北有先例吗？</td><td data-label="结论"><strong>有，而且有两个。</strong> 保定理工学院（2021，学生自发接受）、<strong>河北工程技术学院（2026-03，天猫校园运营，300 辆，有明确 SLA）</strong></td></tr><tr><td data-label="问题">头部企业是谁？</td><td data-label="结论"><strong>九号公司（Segway-Ninebot）</strong>——商用出行事业部是面向全球共享微出行的 B2B 业务，2018 年起合作 250+ 运营商，累计出货超 250 万台，2026-09-14 刚开完共享出行新品发布会，且是国标 GB/T 42825-2023 主要起草单位。运营侧还有<strong>天猫校园（德州学院滑板车包成交方、河北工程技术学院运营商）、九号轻骑、小潮出行、金浪天宇、精灵滑行</strong>；方案侧有<strong>深圳泰比特、深圳欧米智能</strong>。<strong>注意：哈啰、美团、青桔目前只出现在共享单车/电瓶车标段，滑板车标段尚未见其中标</strong></td></tr><tr><td data-label="问题">「产品+运营+维保」一体化的企业有吗？</td><td data-label="结论"><strong>有。</strong> 九号讲 TCO 2.0（收入+运营支出+硬件投资一个框架）；九号轻骑做「交通规划+车辆投放+标准化运营」的一站式方案；天猫校园给出可验证的四项 SLA</td></tr><tr><td data-label="问题">价格怎么做？</td><td data-label="结论">参照德州学院限价：<strong>单次 1.35 元/15 分钟、日封顶 8 元、月卡 17.9 元、季卡 44.9 元</strong>；国科大实际定价 1.5 元含 15 分钟、2 公里内</td></tr><tr><td data-label="问题">最大风险是什么？</td><td data-label="结论"><strong>校规反转</strong>（枣庄学院已明文禁止学生使用电动滑板车），其次是路权（车辆出校即违法）和事故责任。合同期争取 3-5 年，并写明校方终止时的补偿</td></tr><tr><td data-label="问题">校方真正想要什么？</td><td data-label="结论"><strong>零出资 + 增值服务，而不是现金分成。</strong> 青岛工程职业学院公告原文「<strong>招商方（学院）无需出资</strong>」，只要求运营方 4 年提供不低于 2 万元的教育教学/奖助学金；<strong>12 份滑板车项目公告里没有一份披露分成比例</strong></td></tr><tr><td data-label="问题">我该站在什么位置？</td><td data-label="结论"><strong>渠道方/校方资源方。</strong> A 资源居间（快但薄）→ B 区域联营（推荐）→ C 自建运营（重）</td></tr><tr><td data-label="问题">还有哪些类似项目能做进去？</td><td data-label="结论"><strong>校园生活服务 BOT 全品类</strong>：共享洗衣机/吹风机、直饮水、热水、宿舍空调租赁、自动售货机、自助打印、快递柜、充电宝、<strong>充电/换电柜</strong>。头部企业：<strong>海尔</strong>（全品类校园共享家电）、<strong>美的系 U净</strong>（平台+加盟商）、<strong>河南翰宇 / 河北软创</strong>（区域 BOT 运营商）、<strong>友宝</strong>（合伙人模式）。有据的校方收益：售货机 <strong>10%-30% 流水分成</strong>、打印 <strong>120 元/台/月</strong>、苏州大学快递 <strong>40.8 万元/年</strong>、空调 <strong>420 元/台/年</strong>（详见第 9 章）</td></tr><tr><td data-label="问题">现在最该做的一件事是什么？</td><td data-label="结论"><strong>两件事并行：①先拿到目标校方的「最高收费限价」文件——它直接决定流水上限，从而决定分成基数；②向九号商用出行事业部（commercial_business@ninebot.com）询车队报价与 TCO 方案。</strong> 车队单价是唯一缺失的关键变量，没有它，所有测算和分润谈判都是空的</td></tr></tbody></table></div>
+<hr>
+<h2 class="sec" id="s13"><span class="no">13</span>说明与方法</h2>
+<ul>
+<li>本报告基于公开信息检索，检索时间为 2026-09-18，通过本机浏览器（Chrome + CDP 代理）访问 Bing / 百度 / 搜狗，以及企业官网、高校官网、政府与标准平台、招投标网站。</li>
+<li>所有关键数字均附来源链接。凡标注「未核实」「待核实」「二手引用」的条目，均未取得一手原文，引用前需二次核验。</li>
+<li>第 6.3 节的测算<strong>是在明确写出的假设下做的推演，不是查证数据</strong>；其中真实数字仅有「300 辆」「1.35 元/15 分钟」「270 天」三项。</li>
+<li>第 7 章的分润模型是基于公开惯例与真实招标条款组合设计的<strong>建议方案</strong>，不是任何企业的现有报价。</li>
+<li>第 9 章的品类数据分两类口径：「校方收益口径」取自招标公告与中标金额（打印 120 元/台/月、苏州大学快递 40.8 万元/年、空调 420 元/台/年），可信度较高；「投资额与回本周期」多来自行业文章与招商口径，<strong>不是审计数据</strong>，只能用于判断量级。</li>
+<li>本轮对两处最关键的条款做了原文复核（2026-09-18 直接抓取）：</li>
+<li><strong>青岛工程职业学院 2023 年采购公告</strong>（https://www.qdec.edu.cn/2023/0724/c298a6112/page.htm ）——「本项目招商方（青岛工程职业学院）<strong>无需出资</strong>」「投入 <strong>100 辆</strong>运营车辆」「运营期限 <strong>4 年</strong>」「供应商为学院提供增值服务（<strong>4 年共提供人民币不低于贰万元</strong>用于教育教学或学生奖、助学金等）」四项均与原文字面一致。</li>
+<li><strong>山西科技学院 2024 年成交结果公告</strong>（https://www.sxist.edu.cn/info/1501/27451.htm ）——北京金浪天宇「<strong>单次骑行 1.4 元/15 分钟；48.5 元/月（不限骑行次数）；139 元/季（不限骑行次数）</strong>」与原文字面一致。</li>
+</ul>
+<div class="foot">河北高校渠道 · 校园共享电动滑板车深度研究<br>编制日期 2026-09-18 ｜ 单文件移动版 ｜ 内部资料，不构成投资或经营建议</div>
+</div>
+<button class="btn-top" id="topBtn" aria-label="回到顶部">↑</button>
+<script>
+(function(){var b=document.getElementById('topBtn');window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>500)},{passive:true});b.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});document.querySelectorAll('.tw').forEach(function(w){if(w.scrollWidth>w.clientWidth+4)w.style.boxShadow='inset -8px 0 8px -8px rgba(16,42,58,.18)'});})();
+</script>
+</body>
+</html>
